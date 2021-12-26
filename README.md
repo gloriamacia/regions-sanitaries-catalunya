@@ -24,4 +24,4 @@ Els [sectors sanitaris](https://catsalut.gencat.cat/ca/coneix-catsalut/catsalut-
 ## L'àrea bàsica de Salut
 [L'àrea bàsica de salut](https://catsalut.gencat.cat/ca/coneix-catsalut/catsalut-territori/regions-sanitaries/) (ABS) és la unitat territorial elemental a través de la qual s'organitzen els serveis d'atenció primària de salut. Són unes unitats territorials formades per barris o districtes a les àrees urbanes, o per un o més municipis en l'àmbit rural.
 
-![image](https://user-images.githubusercontent.com/17580456/147409510-c76b3b12-44cf-4f6f-909b-99c67a53186d.png)
+![image](https://user-images.githubusercontent.com/17580456/147409510-c76b3b12-44cf-4f6f-909b-99c67a53186d.png | width=300)
