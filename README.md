@@ -45,3 +45,6 @@ La carpeta `mapa-web` conté el codi necessari per reproduir un mapa web similar
 ## Desigualtat d'accés a especialistes entre els malalts de MII a Catalunya
 ### Un estudi d'Enginyeria i Ciència de Dades
 
+Es crea una base de dades `mii/hospitals` a partir de l'informació de Catsalut sobre els [centres del SISCAT](https://catsalut.gencat.cat/ca/centres-sanitaris/cercador/) que presten serveis segons siguin d'atenció primària (CAP, alguns d'ells amb atenció continuada, i consultoris locals) i els centres d'atenció especialitzada (hospitals, centres sociosanitaris i centres d'atenció a la salut mental). S'escullen els hospitals i s'enriqueix la informació amb la geolocalització de l'hospital, el codi de la regió sanitària i la classificació de l'hospital segons el [`delphi consensus statement`](http://www.scdigestologia.org/docs/plans_estrategics/pla_estrategic_MII_2020.pdf) disponible a la web de la [Societat Catalana de Digestologia](http://www.scdigestologia.org/docs/plans_estrategics/mii/Directori_unitats_MII.pdf). 
+
+
