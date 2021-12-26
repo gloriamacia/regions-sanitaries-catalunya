@@ -35,3 +35,12 @@ Els [sectors sanitaris](https://catsalut.gencat.cat/ca/coneix-catsalut/catsalut-
 [L'àrea bàsica de salut](https://catsalut.gencat.cat/ca/coneix-catsalut/catsalut-territori/regions-sanitaries/) (ABS) és la unitat territorial elemental a través de la qual s'organitzen els serveis d'atenció primària de salut. Són unes unitats territorials formades per barris o districtes a les àrees urbanes, o per un o més municipis en l'àmbit rural.
 
 ![image](https://user-images.githubusercontent.com/17580456/147409510-c76b3b12-44cf-4f6f-909b-99c67a53186d.png)
+
+## Mapa Web 
+
+La carpeta `mapa-web` conté el codi necessari per reproduir un mapa web similar a aquest. Tot i que estrictament forma part d'un altre projecte sobre com la ciència de dades pot col.laborar a reduir la desigualtat en l'accés a especialistes per malalts de Malaltia Inflamatòria Intestinal (MII), es presenta de manera conjunta en un repositori com a exemple d'ús dels polígons GeoJSON. 
+
+![image](https://user-images.githubusercontent.com/17580456/147409725-b9d593fc-404e-49de-9cf7-7ff524c65f69.png)
+
+## Desigualtat d'accés a especialistes entre els malalts de MII a Catalunya - un estudi d'Enginyeria i Ciència de Dades
+
