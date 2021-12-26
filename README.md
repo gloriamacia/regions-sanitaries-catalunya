@@ -40,7 +40,7 @@ Els [sectors sanitaris](https://catsalut.gencat.cat/ca/coneix-catsalut/catsalut-
 
 La carpeta `mapa-web` conté el codi necessari per reproduir un mapa web similar a aquest. Tot i que estrictament forma part d'un altre projecte sobre com la ciència de dades pot col.laborar a reduir la desigualtat en l'accés a especialistes per malalts de Malaltia Inflamatòria Intestinal (MII), es presenta de manera conjunta en un repositori com a exemple d'ús dels polígons GeoJSON. 
 
-![image](https://user-images.githubusercontent.com/17580456/147409725-b9d593fc-404e-49de-9cf7-7ff524c65f69.png)
+![image](https://user-images.githubusercontent.com/17580456/147416503-c5d1febb-6830-4779-8584-860d1b239771.png)
 
 ## Desigualtat d'accés a especialistes entre els malalts de MII a Catalunya
 ### Un estudi d'Enginyeria i Ciència de Dades
