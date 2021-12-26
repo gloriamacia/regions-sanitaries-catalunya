@@ -1,0 +1,377 @@
+codi ABS,descripcio ABS,codi SS,descripcio SS,codi RS,descripcio RS,població oficial
+1,Agramunt,6156,Lleida,61,Lleida,6486.0
+2,Alcarràs,6156,Lleida,61,Lleida,14018.0
+3,Alfarràs/ Almenar,6156,Lleida,61,Lleida,9715.0
+4,Amposta,6360,Terres de l'Ebre,63,Terres de l'Ebre,27922.0
+5,Anglès,6462,Girona Sud,64,Girona,12168.0
+7,Aran,7107,Aran,71,Alt Pirineu i Aran,9504.0
+8,Arbúcies/Sant Hilari,6462,Girona Sud,64,Girona,12426.0
+9,Arenys de Mar,7867,Barcelonès Nord i Maresme,78,Barcelona,24639.0
+10,Argentona,7867,Barcelonès Nord i Maresme,78,Barcelona,17883.0
+11,Artés,6763,Solsonès-Bages-Berguedà,67,Catalunya Central,11276.0
+12,Artesa de Segre,6156,Lleida,61,Lleida,4114.0
+13,El Vendrell,6258,Tarragonès-Baix Penedès,62,Camp de Tarragona,47887.0
+14,Balaguer,6156,Lleida,61,Lleida,28025.0
+15,Banyoles,6462,Girona Sud,64,Girona,32648.0
+16,Barcelona 1-A,7846,Barcelona Ciutat Vella,78,Barcelona,14560.0
+17,Barcelona 1-B,7846,Barcelona Ciutat Vella,78,Barcelona,22145.0
+18,Barcelona 1-C,7846,Barcelona Ciutat Vella,78,Barcelona,15088.0
+19,Barcelona 1-D,7846,Barcelona Ciutat Vella,78,Barcelona,29780.0
+20,Barcelona 1-E,7846,Barcelona Ciutat Vella,78,Barcelona,21566.0
+21,Barcelona 2-A,7851,Barcelona Eixample,78,Barcelona,33972.0
+22,Barcelona 2-B,7851,Barcelona Eixample,78,Barcelona,30011.0
+23,Barcelona 2-C,7851,Barcelona Eixample,78,Barcelona,31223.0
+24,Barcelona 2-D,7851,Barcelona Eixample,78,Barcelona,19270.0
+25,Barcelona 2-E,7851,Barcelona Eixample,78,Barcelona,33352.0
+27,Barcelona 2-G,7851,Barcelona Eixample,78,Barcelona,21680.0
+28,Barcelona 2-H,7851,Barcelona Eixample,78,Barcelona,26253.0
+29,Barcelona 2-I,7851,Barcelona Eixample,78,Barcelona,20708.0
+30,Barcelona 2-J,7851,Barcelona Eixample,78,Barcelona,27677.0
+31,Barcelona 2-K,7851,Barcelona Eixample,78,Barcelona,25801.0
+32,Barcelona 3-A,7849,Barcelona Sants-Montjuïc,78,Barcelona,24673.0
+33,Barcelona 3-B,7849,Barcelona Sants-Montjuïc,78,Barcelona,24692.0
+34,Barcelona 3-C,7849,Barcelona Sants-Montjuïc,78,Barcelona,15387.0
+35,Barcelona 3-D,7849,Barcelona Sants-Montjuïc,78,Barcelona,31632.0
+36,Barcelona 3-E,7849,Barcelona Sants-Montjuïc,78,Barcelona,21626.0
+38,Barcelona 3-G,7849,Barcelona Sants-Montjuïc,78,Barcelona,23323.0
+39,Barcelona 4-A,7848,Barcelona Les Corts,78,Barcelona,28116.0
+40,Barcelona 4-B,7848,Barcelona Les Corts,78,Barcelona,21777.0
+41,Barcelona 4-C,7848,Barcelona Les Corts,78,Barcelona,30897.0
+42,Barcelona 5-A,7850,Barcelona Sarrià-Sant Gervasi,78,Barcelona,28375.0
+43,Barcelona 5-B,7850,Barcelona Sarrià-Sant Gervasi,78,Barcelona,35207.0
+44,Barcelona 5-C,7850,Barcelona Sarrià-Sant Gervasi,78,Barcelona,27015.0
+45,Barcelona 5-D,7850,Barcelona Sarrià-Sant Gervasi,78,Barcelona,19444.0
+46,Barcelona 5-E,7850,Barcelona Sarrià-Sant Gervasi,78,Barcelona,34384.0
+47,Barcelona 6-A,7852,Barcelona Gràcia,78,Barcelona,30495.0
+48,Barcelona 6-B,7852,Barcelona Gràcia,78,Barcelona,26577.0
+49,Barcelona 6-C,7852,Barcelona Gràcia,78,Barcelona,21344.0
+50,Barcelona 6-D,7852,Barcelona Gràcia,78,Barcelona,21908.0
+51,Barcelona 7-A,7853,Barcelona Horta-Guinardó,78,Barcelona,21709.0
+52,Barcelona 7-B,7853,Barcelona Horta-Guinardó,78,Barcelona,19277.0
+53,Barcelona 7-C,7853,Barcelona Horta-Guinardó,78,Barcelona,19779.0
+54,Barcelona 7-D,7853,Barcelona Horta-Guinardó,78,Barcelona,27931.0
+55,Barcelona 7-E,7853,Barcelona Horta-Guinardó,78,Barcelona,31061.0
+56,Barcelona 7-F,7853,Barcelona Horta-Guinardó,78,Barcelona,20383.0
+59,Barcelona Turó - Vilapicina 8C,7854,Barcelona Nou Barris,78,Barcelona,24483.0
+60,Barcelona 8-D,7854,Barcelona Nou Barris,78,Barcelona,
+62,Barcelona 8-F,7854,Barcelona Nou Barris,78,Barcelona,25293.0
+63,Barcelona 8-G,7854,Barcelona Nou Barris,78,Barcelona,17286.0
+64,Barcelona 8-H,7854,Barcelona Nou Barris,78,Barcelona,15884.0
+65,Barcelona 9-A,7855,Barcelona Sant Andreu,78,Barcelona,34594.0
+67,Barcelona 9-C,7855,Barcelona Sant Andreu,78,Barcelona,34671.0
+69,Barcelona 9-E,7855,Barcelona Sant Andreu,78,Barcelona,15175.0
+70,Barcelona 9-F,7855,Barcelona Sant Andreu,78,Barcelona,10763.0
+71,Barcelona 10-A,7847,Barcelona Sant Martí,78,Barcelona,36346.0
+72,Barcelona 10-B,7847,Barcelona Sant Martí,78,Barcelona,29016.0
+73,Barcelona 10-C,7847,Barcelona Sant Martí,78,Barcelona,23693.0
+74,Barcelona 10-D,7847,Barcelona Sant Martí,78,Barcelona,27854.0
+75,Barcelona 10-E,7847,Barcelona Sant Martí,78,Barcelona,17211.0
+76,Barcelona 10-F,7847,Barcelona Sant Martí,78,Barcelona,24249.0
+77,Barcelona 10-G,7847,Barcelona Sant Martí,78,Barcelona,24242.0
+78,Barcelona 10-H,7847,Barcelona Sant Martí,78,Barcelona,20034.0
+79,Barcelona 10-I,7847,Barcelona Sant Martí,78,Barcelona,12689.0
+80,Bàscara,6461,Girona Nord,64,Girona,4702.0
+81,Bellpuig,6156,Lleida,61,Lleida,7195.0
+82,Berga,6763,Solsonès-Bages-Berguedà,67,Catalunya Central,21662.0
+83,Besalú,6461,Girona Nord,64,Girona,6270.0
+84,La Bisbal d'Empordà,6461,Girona Nord,64,Girona,16905.0
+85,Blanes,6462,Girona Sud,64,Girona,39662.0
+86,Les Borges Blanques,6156,Lleida,61,Lleida,15890.0
+87,Les Borges del Camp,6259,Baix Camp-Priorat,62,Camp de Tarragona,6832.0
+88,Calaf,6735,Anoia,67,Catalunya Central,6764.0
+89,Caldes de Montbui,7842,Vallès Oriental,78,Barcelona,23924.0
+90,Calella,6462,Girona Sud,64,Girona,19223.0
+91,Cambrils,6259,Baix Camp-Priorat,62,Camp de Tarragona,34621.0
+92,Camprodon,6461,Girona Nord,64,Girona,4139.0
+93,Canet de Mar,6462,Girona Sud,64,Girona,23668.0
+95,Cardedeu,7842,Vallès Oriental,78,Barcelona,21869.0
+96,Cardona,6763,Solsonès-Bages-Berguedà,67,Catalunya Central,5037.0
+97,Castellar del Vallès,7844,Vallès Occidental Est,78,Barcelona,26558.0
+98,Montserrat,6763,Solsonès-Bages-Berguedà,67,Catalunya Central,13768.0
+100,Cassà de la Selva,6462,Girona Sud,64,Girona,33358.0
+101,Celrà,6462,Girona Sud,64,Girona,10209.0
+102,Centelles,6745,Osona,67,Catalunya Central,12547.0
+103,La Cerdanya,7164,Alt Pirineu,71,Alt Pirineu i Aran,16863.0
+104,Cerdanyola del Vallès 1,7844,Vallès Occidental Est,78,Barcelona,23989.0
+105,Cerdanyola del Vallès 2,7844,Vallès Occidental Est,78,Barcelona,24115.0
+106,Cervera,6156,Lleida,61,Lleida,20951.0
+107,Constantí,6258,Tarragonès-Baix Penedès,62,Camp de Tarragona,6882.0
+108,Cornellà de Llobregat 1,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,33053.0
+109,Cornellà de Llobregat 2,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,26300.0
+110,Cornellà de Llobregat 3,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,13283.0
+111,Cornellà de Llobregat 4,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,17095.0
+112,Cornudella de Montsant,6259,Baix Camp-Priorat,62,Camp de Tarragona,2198.0
+113,Deltebre,6360,Terres de l'Ebre,63,Terres de l'Ebre,15073.0
+114,L'Escala,6461,Girona Nord,64,Girona,15873.0
+115,Esparraguera,7831,Baix Llobregat Nord,78,Barcelona,27802.0
+116,Esplugues de Llobregat 1,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,18489.0
+117,Esplugues de Llobregat 2,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,28795.0
+118,Falset,6259,Baix Camp-Priorat,62,Camp de Tarragona,6600.0
+119,Figueres,6461,Girona Nord,64,Girona,49656.0
+120,Flix,6360,Terres de l'Ebre,63,Terres de l'Ebre,7381.0
+121,La Garriga,7842,Vallès Oriental,78,Barcelona,29407.0
+122,Gavà 1,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,19383.0
+123,Gavà 2,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,26364.0
+124,Girona 1,6462,Girona Sud,64,Girona,22793.0
+125,Girona 2,6462,Girona Sud,64,Girona,32966.0
+126,Girona 3,6462,Girona Sud,64,Girona,36210.0
+127,Girona 4,6462,Girona Sud,64,Girona,15576.0
+128,Baix Berguedà,6763,Solsonès-Bages-Berguedà,67,Catalunya Central,11737.0
+129,La Granadella,6156,Lleida,61,Lleida,2423.0
+130,Alt Berguedà,6763,Solsonès-Bages-Berguedà,67,Catalunya Central,4692.0
+131,Anoia Rural,6735,Anoia,67,Catalunya Central,10795.0
+133,La Jonquera,6461,Girona Nord,64,Girona,7134.0
+134,Llançà,6461,Girona Nord,64,Girona,6818.0
+135,Lleida 1 Centre Històric-Rambla Ferran,6156,Lleida,61,Lleida,17917.0
+136,Lleida 2 Primer de Maig,6156,Lleida,61,Lleida,25803.0
+137,Lleida 3 Eixample,6156,Lleida,61,Lleida,21371.0
+138,Lleida 4 Balàfia-Pardinyes,6156,Lleida,61,Lleida,26595.0
+139,Lleida 5 Cappont,6156,Lleida,61,Lleida,16179.0
+140,Lleida 6 Bordeta-Magraners,6156,Lleida,61,Lleida,16932.0
+141,Lleida Rural 1-Nord,6156,Lleida,61,Lleida,24161.0
+142,Lloret de Mar,6462,Girona Sud,64,Girona,40881.0
+143,Malgrat de Mar,6462,Girona Sud,64,Girona,28054.0
+144,Manlleu,6745,Osona,67,Catalunya Central,20971.0
+145,Manresa 1,6763,Solsonès-Bages-Berguedà,67,Catalunya Central,22266.0
+146,Manresa 2,6763,Solsonès-Bages-Berguedà,67,Catalunya Central,23408.0
+147,Manresa 3,6763,Solsonès-Bages-Berguedà,67,Catalunya Central,14811.0
+148,Manresa 4,6763,Solsonès-Bages-Berguedà,67,Catalunya Central,22776.0
+149,Martorell,7831,Baix Llobregat Nord,78,Barcelona,29799.0
+150,Martorelles,7842,Vallès Oriental,78,Barcelona,14487.0
+152,Mataró 1,7867,Barcelonès Nord i Maresme,78,Barcelona,19364.0
+153,Mataró 2,7867,Barcelonès Nord i Maresme,78,Barcelona,17808.0
+154,Mataró 3,7867,Barcelonès Nord i Maresme,78,Barcelona,18651.0
+155,Mataró 4,7867,Barcelonès Nord i Maresme,78,Barcelona,22466.0
+156,Mataró 5,7867,Barcelonès Nord i Maresme,78,Barcelona,21728.0
+157,Mataró 6,7867,Barcelonès Nord i Maresme,78,Barcelona,15472.0
+158,Mataró 7,7867,Barcelonès Nord i Maresme,78,Barcelona,14087.0
+159,Moià,6763,Solsonès-Bages-Berguedà,67,Catalunya Central,10349.0
+160,Molins de Rei,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,30172.0
+161,Pla d'Urgell,6156,Lleida,61,Lleida,38135.0
+162,Montblanc,6257,Alt Camp-Conca de Barberà,62,Camp de Tarragona,15928.0
+163,Mont-Roig del Camp,6259,Baix Camp-Priorat,62,Camp de Tarragona,13456.0
+164,Montornès/ Montmeló,7842,Vallès Oriental,78,Barcelona,33136.0
+165,Móra la Nova - Móra d'Ebre,6360,Terres de l'Ebre,63,Terres de l'Ebre,14076.0
+166,El Morell,6258,Tarragonès-Baix Penedès,62,Camp de Tarragona,12317.0
+167,Navàs/Balsareny,6763,Solsonès-Bages-Berguedà,67,Catalunya Central,9610.0
+168,Olesa de Montserrat,7831,Baix Llobregat Nord,78,Barcelona,24105.0
+169,Alt Urgell-sud,7164,Alt Pirineu,71,Alt Pirineu i Aran,3859.0
+171,Olot,6461,Girona Nord,64,Girona,40020.0
+172,Palafrugell,6461,Girona Nord,64,Girona,30942.0
+173,Palamós,6461,Girona Nord,64,Girona,29096.0
+174,Pallars Sobirà,7164,Alt Pirineu,71,Alt Pirineu i Aran,6049.0
+175,Parets del Vallès,7842,Vallès Oriental,78,Barcelona,18903.0
+176,Penedès rural,7865,Alt Penedès-Garraf,78,Barcelona,34449.0
+177,Peralada,6461,Girona Nord,64,Girona,7556.0
+178,L'Ametlla de Mar- El Perelló,6360,Terres de l'Ebre,63,Terres de l'Ebre,9305.0
+179,La Pobla de Segur,7164,Alt Pirineu,71,Alt Pirineu i Aran,4312.0
+180,Alta Ribagorça,7164,Alt Pirineu,71,Alt Pirineu i Aran,3548.0
+181,Ponts,6156,Lleida,61,Lleida,3643.0
+182,El Prat de Llobregat 1,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,21680.0
+183,El Prat de Llobregat 2,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,30326.0
+184,El Prat de Llobregat 3,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,12958.0
+185,Lluçanès,6745,Osona,67,Catalunya Central,5984.0
+186,Premià de Mar,7867,Barcelonès Nord i Maresme,78,Barcelona,38513.0
+187,Ripoll- Sant Joan de les Abadesses,6461,Girona Nord,64,Girona,14512.0
+188,Riudoms,6259,Baix Camp-Priorat,62,Camp de Tarragona,12812.0
+189,Roses,6461,Girona Nord,64,Girona,33323.0
+190,Sabadell 1A,7844,Vallès Occidental Est,78,Barcelona,34449.0
+191,Sabadell 1B,7844,Vallès Occidental Est,78,Barcelona,21252.0
+192,Sabadell 2,7844,Vallès Occidental Est,78,Barcelona,24778.0
+193,Sabadell 3A,7844,Vallès Occidental Est,78,Barcelona,19833.0
+194,Sabadell 3B,7844,Vallès Occidental Est,78,Barcelona,16310.0
+196,Sabadell 5,7844,Vallès Occidental Est,78,Barcelona,20050.0
+197,Sabadell 6,7844,Vallès Occidental Est,78,Barcelona,31142.0
+198,Sabadell 7,7844,Vallès Occidental Est,78,Barcelona,9233.0
+199,Salt,6462,Girona Sud,64,Girona,44042.0
+200,Sallent,6763,Solsonès-Bages-Berguedà,67,Catalunya Central,6703.0
+201,Sant Andreu de la Barca,7831,Baix Llobregat Nord,78,Barcelona,28098.0
+202,Sant Boi de Llobregat 1,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,38896.0
+203,Sant Boi de Llobregat 2,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,21933.0
+204,Sant Boi de Llobregat 3,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,11338.0
+205,Sant Boi de Llobregat 4,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,20987.0
+206,Sant Carles de la Ràpita,6360,Terres de l'Ebre,63,Terres de l'Ebre,24078.0
+207,Sant Celoni,7842,Vallès Oriental,78,Barcelona,35986.0
+208,Sant Feliu de Guíxols,6461,Girona Nord,64,Girona,36277.0
+209,Sant Feliu de Llobregat 1,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,18521.0
+210,Sant Feliu de Llobregat 2,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,26763.0
+211,Navarcles- Sant Fruitós de Bages,6763,Solsonès-Bages-Berguedà,67,Catalunya Central,23630.0
+212,Sant Hipòlit de Voltregà,6745,Osona,67,Catalunya Central,7013.0
+213,Sant Joan Despí 1,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,20413.0
+214,Sant Joan Despí 2,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,13764.0
+215,Sant Joan de Vilatorrada,6763,Solsonès-Bages-Berguedà,67,Catalunya Central,13074.0
+216,Sant Just Desvern,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,18700.0
+217,Sant Quirze de Besora,6745,Osona,67,Catalunya Central,4721.0
+218,Sant Sadurní d'Anoia,7865,Alt Penedès-Garraf,78,Barcelona,22448.0
+219,Sant Vicenç de Castellet,6763,Solsonès-Bages-Berguedà,67,Catalunya Central,15772.0
+221,Santa Coloma de Farners,6462,Girona Sud,64,Girona,16704.0
+222,Santa Coloma de Gramenet 1,7867,Barcelonès Nord i Maresme,78,Barcelona,22169.0
+223,Santa Coloma de Gramenet 2,7867,Barcelonès Nord i Maresme,78,Barcelona,15307.0
+224,Santa Coloma de Gramenet 3,7867,Barcelonès Nord i Maresme,78,Barcelona,19230.0
+225,Santa Coloma de Gramenet 4,7867,Barcelonès Nord i Maresme,78,Barcelona,22475.0
+226,Santa Coloma de Gramenet 5,7867,Barcelonès Nord i Maresme,78,Barcelona,21258.0
+228,Santa Coloma de Queralt,6735,Anoia,67,Catalunya Central,3292.0
+229,Santa Margarida de Montbui,6735,Anoia,67,Catalunya Central,10393.0
+230,Santa Perpètua de la Mogoda,7842,Vallès Oriental,78,Barcelona,25522.0
+231,Sarrià de Ter,6462,Girona Sud,64,Girona,13991.0
+232,Seròs,6156,Lleida,61,Lleida,6875.0
+233,La Seu d'Urgell,7164,Alt Pirineu,71,Alt Pirineu i Aran,16261.0
+234,Sils/Vidreres/Maçanet de la Selva,6462,Girona Sud,64,Girona,23077.0
+235,Sitges,7865,Alt Penedès-Garraf,78,Barcelona,25942.0
+236,El Solsonès,6763,Solsonès-Bages-Berguedà,67,Catalunya Central,12988.0
+237,Súria,6763,Solsonès-Bages-Berguedà,67,Catalunya Central,8803.0
+238,Santa Eugènia de Berga,6745,Osona,67,Catalunya Central,18092.0
+239,Tarragona 1,6258,Tarragonès-Baix Penedès,62,Camp de Tarragona,15068.0
+240,Tarragona 2,6258,Tarragonès-Baix Penedès,62,Camp de Tarragona,28223.0
+241,Tarragona 3,6258,Tarragonès-Baix Penedès,62,Camp de Tarragona,31005.0
+242,Tarragona 4,6258,Tarragonès-Baix Penedès,62,Camp de Tarragona,16860.0
+243,Tarragona 5,6258,Tarragonès-Baix Penedès,62,Camp de Tarragona,16826.0
+244,Tarragona 6,6258,Tarragonès-Baix Penedès,62,Camp de Tarragona,20083.0
+245,Tàrrega,6156,Lleida,61,Lleida,24078.0
+246,Terra Alta ,6360,Terres de l'Ebre,63,Terres de l'Ebre,10943.0
+247,Terrassa A,7843,Vallès Occidental Oest,78,Barcelona,41953.0
+248,Terrassa B,7843,Vallès Occidental Oest,78,Barcelona,28129.0
+249,Terrassa C,7843,Vallès Occidental Oest,78,Barcelona,11033.0
+250,Terrassa D,7843,Vallès Occidental Oest,78,Barcelona,33358.0
+251,Terrassa E,7843,Vallès Occidental Oest,78,Barcelona,63174.0
+252,Terrassa F,7843,Vallès Occidental Oest,78,Barcelona,43225.0
+253,Tona,6745,Osona,67,Catalunya Central,12565.0
+254,Vall del Ges,6745,Osona,67,Catalunya Central,18869.0
+255,Tortosa 1- est,6360,Terres de l'Ebre,63,Terres de l'Ebre,23197.0
+256,Tortosa 2 oest,6360,Terres de l'Ebre,63,Terres de l'Ebre,23814.0
+257,Torredembarra,6258,Tarragonès-Baix Penedès,62,Camp de Tarragona,37330.0
+258,Torroella de Montgrí,6461,Girona Nord,64,Girona,15634.0
+259,Tremp,7164,Alt Pirineu,71,Alt Pirineu i Aran,8122.0
+260,Ulldecona,6360,Terres de l'Ebre,63,Terres de l'Ebre,11845.0
+261,Vallirana,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,23308.0
+262,Alt Camp est,6257,Alt Camp-Conca de Barberà,62,Camp de Tarragona,12049.0
+263,Valls Urbà,6257,Alt Camp-Conca de Barberà,62,Camp de Tarragona,27307.0
+265,Viladecans 1,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,24252.0
+266,Viladecans 2,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,22479.0
+267,Vilafant,6461,Girona Nord,64,Girona,14565.0
+268,Sense Especificar,7865,Alt Penedès-Garraf,78,Barcelona,
+269,Vilanova del Camí,6735,Anoia,67,Catalunya Central,12694.0
+271,Vilassar de Mar,7867,Barcelonès Nord i Maresme,78,Barcelona,25452.0
+272,Badalona 1,7867,Barcelonès Nord i Maresme,78,Barcelona,12340.0
+273,Badalona 2,7867,Barcelonès Nord i Maresme,78,Barcelona,16618.0
+274,Badalona 3,7867,Barcelonès Nord i Maresme,78,Barcelona,20547.0
+275,Badalona 4,7867,Barcelonès Nord i Maresme,78,Barcelona,12996.0
+276,Badalona 5,7867,Barcelonès Nord i Maresme,78,Barcelona,19153.0
+277,Badalona 6,7867,Barcelonès Nord i Maresme,78,Barcelona,24164.0
+279,Badalona 8,7867,Barcelonès Nord i Maresme,78,Barcelona,14774.0
+280,Badalona 9,7867,Barcelonès Nord i Maresme,78,Barcelona,18405.0
+281,Badalona 10,7867,Barcelonès Nord i Maresme,78,Barcelona,9988.0
+282,Badalona 11,7867,Barcelonès Nord i Maresme,78,Barcelona,23127.0
+283,Badalona 12,7867,Barcelonès Nord i Maresme,78,Barcelona,11613.0
+284,Granollers 1 oest,7842,Vallès Oriental,78,Barcelona,23262.0
+285,Granollers 2 nord,7842,Vallès Oriental,78,Barcelona,30547.0
+286,Granollers 3 centre est,7842,Vallès Oriental,78,Barcelona,29324.0
+287,Granollers 4 sud,7842,Vallès Oriental,78,Barcelona,16565.0
+288,L'Hospitalet de Llobregat 1 centre,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,29300.0
+289,L'Hospitalet de Llobregat 2 S.Josep,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,22820.0
+290,L'Hospitalet de Llobregat 3 Collblanc,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,25940.0
+291,L'Hospitalet de Llobregat 4 Torrassa,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,27359.0
+292,L'Hospitalet de Llobregat 5 S.Eulàlia nord,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,20223.0
+293,L'Hospitalet de Llobregat 6 S.Eulàlia sud,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,23684.0
+294,L'Hospitalet de Llobregat 7 Florida nord,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,22514.0
+295,L'Hospitalet de Llobregat 8 Florida sud,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,23253.0
+296,L'Hospitalet de Llobregat 9 Pubilla Cases,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,29910.0
+297,L'Hospitalet de Llobregat 10 C.Serra,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,10269.0
+298,L'Hospitalet de Llobregat 11 Gornal,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,8736.0
+299,L'Hospitalet de Llobregat 12 (Bellvitge),7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,25257.0
+300,La Llagosta,7842,Vallès Oriental,78,Barcelona,13797.0
+302,Montcada i Reixac,7844,Vallès Occidental Est,78,Barcelona,35217.0
+303,Reus 1,6259,Baix Camp-Priorat,62,Camp de Tarragona,13748.0
+304,Reus 2,6259,Baix Camp-Priorat,62,Camp de Tarragona,26981.0
+305,Reus 3,6259,Baix Camp-Priorat,62,Camp de Tarragona,22714.0
+306,Reus 4,6259,Baix Camp-Priorat,62,Camp de Tarragona,21508.0
+307,Reus 5,6259,Baix Camp-Priorat,62,Camp de Tarragona,28025.0
+309,Rubí 1,7843,Vallès Occidental Oest,78,Barcelona,32102.0
+310,Rubí 2,7843,Vallès Occidental Oest,78,Barcelona,28907.0
+311,Sant Adrià del Besòs 1,7867,Barcelonès Nord i Maresme,78,Barcelona,20881.0
+312,Sant Adrià del Besòs 2,7867,Barcelonès Nord i Maresme,78,Barcelona,16742.0
+314,Baix Penedès interior,6258,Tarragonès-Baix Penedès,62,Camp de Tarragona,15298.0
+315,Vall de Tenes,7842,Vallès Oriental,78,Barcelona,37266.0
+316,Vilanova i la Geltrú 1,7865,Alt Penedès-Garraf,78,Barcelona,24224.0
+317,Vilanova i la Geltrú 2,7865,Alt Penedès-Garraf,78,Barcelona,24129.0
+318,Garraf rural,7865,Alt Penedès-Garraf,78,Barcelona,
+319,Montgat,7867,Barcelonès Nord i Maresme,78,Barcelona,20271.0
+320,Barberà del Vallès,7844,Vallès Occidental Est,78,Barcelona,32934.0
+322,Ciutat Badia,7844,Vallès Occidental Est,78,Barcelona,13823.0
+324,Vandellòs i L'Hospitalet de L'Infant,6259,Baix Camp-Priorat,62,Camp de Tarragona,5996.0
+325,Pineda,6462,Girona Sud,64,Girona,30615.0
+326,Barcelona 7 g,7853,Barcelona Horta-Guinardó,78,Barcelona,32620.0
+327,Barcelona 8 i,7854,Barcelona Nou Barris,78,Barcelona,18288.0
+328,L'Aldea- Camarles- L'Ampolla,6360,Terres de l'Ebre,63,Terres de l'Ebre,10478.0
+329,Lleida rural 2 sud,6156,Lleida,61,Lleida,7579.0
+330,Breda - Hostalric,6462,Girona Sud,64,Girona,13219.0
+331,Barcelona 10 j,7847,Barcelona Sant Martí,78,Barcelona,22680.0
+333,Alt Camp oest,6257,Alt Camp-Conca de Barberà,62,Camp de Tarragona,6383.0
+334,Almacelles,6156,Lleida,61,Lleida,9057.0
+335,Sant Andreu de Llavaneres,7867,Barcelonès Nord i Maresme,78,Barcelona,19118.0
+336,Tordera,6462,Girona Sud,64,Girona,18101.0
+337,Capellades,6735,Anoia,67,Catalunya Central,10460.0
+338,Piera,6735,Anoia,67,Catalunya Central,18394.0
+339,Salou,6258,Tarragonès-Baix Penedès,62,Camp de Tarragona,26934.0
+340,Vila-Seca,6258,Tarragonès-Baix Penedès,62,Camp de Tarragona,22249.0
+341,Badalona 7a,7867,Barcelonès Nord i Maresme,78,Barcelona,19701.0
+342,Badalona 7b,7867,Barcelonès Nord i Maresme,78,Barcelona,20063.0
+343,Ribes de Freser-Campdevànol,6461,Girona Nord,64,Girona,5721.0
+344,Sabadell 4 A,7844,Vallès Occidental Est,78,Barcelona,14929.0
+345,Sabadell 4 B,7844,Vallès Occidental Est,78,Barcelona,24456.0
+346,Sant Joan les Fonts,6461,Girona Nord,64,Girona,5281.0
+347,Vall d'en Bas,6461,Girona Nord,64,Girona,6466.0
+348,Mollet del Vallès est,7842,Vallès Oriental,78,Barcelona,28494.0
+349,Mollet del Vallès 2 oest,7842,Vallès Oriental,78,Barcelona,23802.0
+350,Vic 1 nord,6745,Osona,67,Catalunya Central,27579.0
+351,Vic 2 sud,6745,Osona,67,Catalunya Central,26144.0
+352,Tarragona 7 (Sant Salvador),6258,Tarragonès-Baix Penedès,62,Camp de Tarragona,12099.0
+353,Vilassar de Dalt,7867,Barcelonès Nord i Maresme,78,Barcelona,16068.0
+354,La Selva del Camp,6259,Baix Camp-Priorat,62,Camp de Tarragona,7301.0
+355,La Roca del Vallès,7842,Vallès Oriental,78,Barcelona,10438.0
+356,Terrassa g,7843,Vallès Occidental Oest,78,Barcelona,25449.0
+357,Calafell,6258,Tarragonès-Baix Penedès,62,Camp de Tarragona,25517.0
+358,Barcelona 6 e,7852,Barcelona Gràcia,78,Barcelona,23402.0
+359,Cubelles-Cunit,7865,Alt Penedès-Garraf,78,Barcelona,28259.0
+360,Martorell rural,7831,Baix Llobregat Nord,78,Barcelona,27690.0
+361,El Masnou-Alella,7867,Barcelonès Nord i Maresme,78,Barcelona,24220.0
+362,Ocata-Teià,7867,Barcelonès Nord i Maresme,78,Barcelona,14997.0
+363,Sant Quirze del Vallès,7843,Vallès Occidental Oest,78,Barcelona,18318.0
+364,Tarragona 8,6258,Tarragonès-Baix Penedès,62,Camp de Tarragona,15793.0
+365,Castelldefels 1,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,37429.0
+366,Castelldefels 2,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,28866.0
+367,Pallejà,7831,Baix Llobregat Nord,78,Barcelona,11490.0
+368,Santa Coloma de Gramanet 6,7867,Barcelonès Nord i Maresme,78,Barcelona,20612.0
+369,Corbera de Llobregat,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,17390.0
+370,Abrera,7831,Baix Llobregat Nord,78,Barcelona,12388.0
+371,Igualada1,6735,Anoia,67,Catalunya Central,20938.0
+372,Igualada 2,6735,Anoia,67,Catalunya Central,20638.0
+373,Begues,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,7134.0
+374,Sant Vicenç dels Horts 1,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,21226.0
+375,Sant Vicenç dels Horts 2,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,12738.0
+376,Alt Mogent,7842,Vallès Oriental,78,Barcelona,21020.0
+377,Roda de Ter,6745,Osona,67,Catalunya Central,9858.0
+378,Rubí 3,7843,Vallès Occidental Oest,78,Barcelona,16823.0
+379,Lleida 7 Onze de Setembre,6156,Lleida,61,Lleida,18180.0
+380,Vilanova i la Geltrú 3,7865,Alt Penedès-Garraf,78,Barcelona,19174.0
+383,Barcelona 3 H,7849,Barcelona Sants-Montjuïc,78,Barcelona,18924.0
+384,Cerdanyola-Ripollet,7844,Vallès Occidental Est,78,Barcelona,13776.0
+385,Barcelona 8 J,7854,Barcelona Nou Barris,78,Barcelona,24976.0
+386,Ripollet 1,7844,Vallès Occidental Est,78,Barcelona,18075.0
+387,Ripollet 2,7844,Vallès Occidental Est,78,Barcelona,15242.0
+388,Sant Cugat del Vallès 1,7843,Vallès Occidental Oest,78,Barcelona,30992.0
+389,Sant Cugat del Vallès 2,7843,Vallès Occidental Oest,78,Barcelona,32049.0
+390,Sant Cugat del Vallès 3,7843,Vallès Occidental Oest,78,Barcelona,27780.0
+391,Palau-Solità i Plegamans,7842,Vallès Oriental,78,Barcelona,15146.0
+392,Polinyà-Sentmenat,7844,Vallès Occidental Est,78,Barcelona,17302.0
+393,Ribes-Olivella,7865,Alt Penedès-Garraf,78,Barcelona,19401.0
+394,Roquetes-Canyelles,7865,Alt Penedès-Garraf,78,Barcelona,18726.0
+395,Barcelona 9 H,7855,Barcelona Sant Andreu,78,Barcelona,30944.0
+396,Barcelona 9 I,7855,Barcelona Sant Andreu,78,Barcelona,25091.0
+397,Vilafranca del Penedès 1,7865,Alt Penedès-Garraf,78,Barcelona,19968.0
+398,Vilafranca del Penedès 2,7865,Alt Penedès-Garraf,78,Barcelona,21759.0
+399,Castellbisbal,7843,Vallès Occidental Oest,78,Barcelona,11660.0
+400,Barcelona 3-I,7849,Barcelona Sants-Montjuïc,78,Barcelona,25964.0
+401,Viladecans 3,7866,Baix Llobregat Centre-Litoral i l'Hospitalet de Llobregat,78,Barcelona,23559.0
+402,Barcelona Porta 8K,7854,Barcelona Nou Barris,78,Barcelona,17865.0
+403,Barcelona Prosperitat - Verdum 8L,7854,Barcelona Nou Barris,78,Barcelona,29478.0
