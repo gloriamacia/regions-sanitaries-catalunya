@@ -1,4 +1,4 @@
-# Regions sanitàries (RS), Sectors Sanitaris (SS) i Àrees Bàsiques de Salut (ABS) de Catalunya
+# Regions sanitàries (RS), Sectors Sanitaris (SS), Àrees de Gestió Assistencial (AGA) i Àrees Bàsiques de Salut (ABS) de Catalunya
 
 Fitxers GeoJSON de les regions sanitàries, sectors sanitaris i àrees bàsiques de salut de Catalunya a punt per ser representats en mapes webs sota llicència [GNU AGPLv3](https://choosealicense.com/licenses/).
 
@@ -17,6 +17,9 @@ Compten amb una dotació adequada de recursos sanitaris d'atenció primària i d
 
 ## Els sectors sanitaris
 Els [sectors sanitaris](https://catsalut.gencat.cat/ca/coneix-catsalut/catsalut-territori/regions-sanitaries/) són l'àmbit on es desenvolupen i coordinen les activitats de promoció de la salut, prevenció de la malaltia, salut pública i assistència sociosanitària en el nivell d'atenció primària i de les especialitats mèdiques. Els sectors sanitaris estan constituïts per l'agrupació d'àrees bàsiques de salut.
+
+## Àrees de gestió assistencial 
+[Les àrees de gestió assistencial](https://catsalut.gencat.cat/ca/proveidors-professionals/registres-catalegs/catalegs/territorials-unitats-proveidores/) (AGA) són delimitacions territorials que parteixen de l’agrupació d’àrees bàsiques de salut (ABS). Aquesta delimitació correspon a criteris de planificació operativa, de coordinació i d’anàlisi dels fluxos principals entre l’atenció primària i l’hospitalària bàsica.
 
 ## L'àrea bàsica de Salut
 [L'àrea bàsica de salut](https://catsalut.gencat.cat/ca/coneix-catsalut/catsalut-territori/regions-sanitaries/) (ABS) és la unitat territorial elemental a través de la qual s'organitzen els serveis d'atenció primària de salut. Són unes unitats territorials formades per barris o districtes a les àrees urbanes, o per un o més municipis en l'àmbit rural.
