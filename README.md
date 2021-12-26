@@ -42,5 +42,6 @@ La carpeta `mapa-web` conté el codi necessari per reproduir un mapa web similar
 
 ![image](https://user-images.githubusercontent.com/17580456/147409725-b9d593fc-404e-49de-9cf7-7ff524c65f69.png)
 
-## Desigualtat d'accés a especialistes entre els malalts de MII a Catalunya - un estudi d'Enginyeria i Ciència de Dades
+## Desigualtat d'accés a especialistes entre els malalts de MII a Catalunya
+### Un estudi d'Enginyeria i Ciència de Dades
 
