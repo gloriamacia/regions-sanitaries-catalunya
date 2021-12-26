@@ -2,6 +2,8 @@
 
 Fitxers GeoJSON de les regions sanitàries, sectors sanitaris i àrees bàsiques de salut de Catalunya a punt per ser representats en mapes webs sota llicència [GNU AGPLv3](https://choosealicense.com/licenses/).
 
+Agraïr la [versió original](https://salutweb.gencat.cat/ca/el_departament/estadistiques_sanitaries/cartografia/) d'aquestes dades cartogràfiques a la Generalitat de Catalunya - Departament de Salut - Direcció General de Planificació en Salut. Més informació en el fitxer 'Catàleg de metadata.pdf'
+
 
 ## Les regions sanitàries
 
