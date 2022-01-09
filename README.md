@@ -47,4 +47,23 @@ La carpeta `mapa-web` conté el codi necessari per reproduir un mapa web similar
 
 Es crea una base de dades `mii/hospitals` a partir de l'informació de Catsalut sobre els [centres del SISCAT](https://catsalut.gencat.cat/ca/centres-sanitaris/cercador/) que presten serveis segons siguin d'atenció primària (CAP, alguns d'ells amb atenció continuada, i consultoris locals) i els centres d'atenció especialitzada (hospitals, centres sociosanitaris i centres d'atenció a la salut mental). S'escullen els hospitals i s'enriqueix la informació amb la geolocalització de l'hospital, el codi de la regió sanitària i la classificació de l'hospital segons el [`delphi consensus statement`](http://www.scdigestologia.org/docs/plans_estrategics/pla_estrategic_MII_2020.pdf) disponible [aquí](http://www.scdigestologia.org/docs/plans_estrategics/mii/Directori_unitats_MII.pdf) i el.laborat per la Societat Catalana de Digestologia. Es fan servir les [dades del registre central de població del CatSalut](https://analisi.transparenciacatalunya.cat/en/Salut/Registre-central-de-poblaci-del-CatSalut-poblaci-p/ftq4-h9vk) per calcular la població de cada regió sanitària i a partir d'aquest [estudi](https://www.tandfonline.com/doi/full/10.1080/07853890.2018.1523550) es calcula la prevalència i incidència de MII.
 
+Es far el deployment del subdirectori mapa-web a heroku seguint aquest [tutorial](https://medium.com/@shalandy/deploy-git-subdirectory-to-heroku-ea05e95fce1f). Per evitar que el dyno de heroku dormi, es fa servir [kaffeine](http://kaffeine.herokuapp.com/), un servei gratuït que actua les 24/7 llevat per 6h a partir de les 22 CET (21 GMT). 
+
+L'app és disponible a https://scd-pla-estrategic-mii.herokuapp.com/
+
+![image](https://user-images.githubusercontent.com/17580456/148683239-1892b9ea-9f46-4e82-9a5f-8c0552fa2336.png)
+
+La visualització permet fer zoom, filtrar per tipus d'hospital i desplegar informació sobre el sector sanitari. 
+
+![image](https://user-images.githubusercontent.com/17580456/148683347-b625b5a7-4fc2-4baf-8641-d9138eb08561.png)
+
+![image](https://user-images.githubusercontent.com/17580456/148683386-679c115d-7c5f-4c18-9832-d1007f89848d.png)
+
+
+
+
+
+
+
+
 
