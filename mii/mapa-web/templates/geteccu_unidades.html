@@ -1,0 +1,2607 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_dfe55187e1854be899da3bb13bcfab50 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_dfe55187e1854be899da3bb13bcfab50" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_dfe55187e1854be899da3bb13bcfab50 = L.map(
+        'map_dfe55187e1854be899da3bb13bcfab50', {
+        center: [42.3505, 3.6894],
+        zoom: 6,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_a937525c1de743b881a523a52e344645 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+    
+        var marker_81df5778750a4206baf612f95f10757a = L.marker(
+            [43.5105963, -8.2160997],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_2db1b61d50c2479cae101bcd7748f712 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_81df5778750a4206baf612f95f10757a.setIcon(icon_2db1b61d50c2479cae101bcd7748f712);
+            
+    
+            var popup_40ccd45dad4e4b4ab6ec276e0f5d8d0e = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_70133f533a084a7885fdbe7d93651c80 = $(`<div id="html_70133f533a084a7885fdbe7d93651c80" style="width: 100.0%; height: 100.0%;"><b>Hospital Arquitecto Marcide</b><br>Av. da Residencia, S/N, 15405 Ferrol, A Coruña<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJSU7N-kvfLQ0RfORrkJlU9G8>Google Maps</a></div>`)[0];
+                popup_40ccd45dad4e4b4ab6ec276e0f5d8d0e.setContent(html_70133f533a084a7885fdbe7d93651c80);
+            
+
+            marker_81df5778750a4206baf612f95f10757a.bindPopup(popup_40ccd45dad4e4b4ab6ec276e0f5d8d0e)
+            ;
+
+            
+        
+    
+        marker_81df5778750a4206baf612f95f10757a.bindTooltip(
+            `<div>`
+            + `Hospital Arquitecto Marcide` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_d6562a0a0e0448ca9f3359065f17b4e1 = L.marker(
+            [42.8693812, -8.5657444],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_3260f4dc41b049f796d97045f84afab1 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d6562a0a0e0448ca9f3359065f17b4e1.setIcon(icon_3260f4dc41b049f796d97045f84afab1);
+            
+    
+            var popup_13b10e12c9b54b46a50827aac1c7d37c = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_5432387b25534362acc0ba32d10d4e3c = $(`<div id="html_5432387b25534362acc0ba32d10d4e3c" style="width: 100.0%; height: 100.0%;"><b>Hospital Clínico Universitario de Santiago CHUS</b><br>Rúa da Choupana, s/n, 15706 Santiago de Compostela, A Coruña<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJw2ehEQz-Lg0Rjahaq8tfKKk>Google Maps</a></div>`)[0];
+                popup_13b10e12c9b54b46a50827aac1c7d37c.setContent(html_5432387b25534362acc0ba32d10d4e3c);
+            
+
+            marker_d6562a0a0e0448ca9f3359065f17b4e1.bindPopup(popup_13b10e12c9b54b46a50827aac1c7d37c)
+            ;
+
+            
+        
+    
+        marker_d6562a0a0e0448ca9f3359065f17b4e1.bindTooltip(
+            `<div>`
+            + `Hospital Clínico Universitario de Santiago CHUS` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_902f2243f94748e3b0c29c25cbd6f416 = L.marker(
+            [42.4287626, -8.637683899999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_ceffd6e47e9e4b399791f9efda4680f9 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_902f2243f94748e3b0c29c25cbd6f416.setIcon(icon_ceffd6e47e9e4b399791f9efda4680f9);
+            
+    
+            var popup_a25ba3245fbe4ffc89a0451b97a0285f = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_56cbb14daabe4092973a1874cac3ac11 = $(`<div id="html_56cbb14daabe4092973a1874cac3ac11" style="width: 100.0%; height: 100.0%;"><b>Hospital Provincial de Pontevedra</b><br>Loureiro Crespo, 2, 36002 Pontevedra<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJuz9507dxLw0Rse_uyY1i8cU>Google Maps</a></div>`)[0];
+                popup_a25ba3245fbe4ffc89a0451b97a0285f.setContent(html_56cbb14daabe4092973a1874cac3ac11);
+            
+
+            marker_902f2243f94748e3b0c29c25cbd6f416.bindPopup(popup_a25ba3245fbe4ffc89a0451b97a0285f)
+            ;
+
+            
+        
+    
+        marker_902f2243f94748e3b0c29c25cbd6f416.bindTooltip(
+            `<div>`
+            + `Hospital Provincial de Pontevedra` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_d35964d17e434130a1d30a33fd69b693 = L.marker(
+            [42.1887353, -8.7148556],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_5ea5a8148f1943a3906db52f3d063fe3 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d35964d17e434130a1d30a33fd69b693.setIcon(icon_5ea5a8148f1943a3906db52f3d063fe3);
+            
+    
+            var popup_b60d51fd550a408b882824ab3b93ff3a = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_9a550dc031bb42a3aca2542e80e771ac = $(`<div id="html_9a550dc031bb42a3aca2542e80e771ac" style="width: 100.0%; height: 100.0%;"><b>Hospital Álvaro Cunqueiro</b><br>Estrada de Clara Campoamor, 341, 36213 Vigo, Pontevedra<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJ9SR13m9iLw0R-3yezgu1Y3Y>Google Maps</a></div>`)[0];
+                popup_b60d51fd550a408b882824ab3b93ff3a.setContent(html_9a550dc031bb42a3aca2542e80e771ac);
+            
+
+            marker_d35964d17e434130a1d30a33fd69b693.bindPopup(popup_b60d51fd550a408b882824ab3b93ff3a)
+            ;
+
+            
+        
+    
+        marker_d35964d17e434130a1d30a33fd69b693.bindTooltip(
+            `<div>`
+            + `Hospital Álvaro Cunqueiro` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_e261ecce8ae2432ca8501cd79358ac63 = L.marker(
+            [42.3266285, -7.860519],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_22967412b02d409b933282d0e780d453 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e261ecce8ae2432ca8501cd79358ac63.setIcon(icon_22967412b02d409b933282d0e780d453);
+            
+    
+            var popup_40c68391adda4ebfaab4e86ca92ff142 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_9dee10de269f431abb649414cae7b10c = $(`<div id="html_9dee10de269f431abb649414cae7b10c" style="width: 100.0%; height: 100.0%;"><b>Complejo Hospitalario Universitario de Ourense - CHUO</b><br>Calle Ramon Puga Noguerol, 54, 32005 Ourense, Province of Ourense<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJDcRHENr-Lw0RvDk03MFUjuI>Google Maps</a></div>`)[0];
+                popup_40c68391adda4ebfaab4e86ca92ff142.setContent(html_9dee10de269f431abb649414cae7b10c);
+            
+
+            marker_e261ecce8ae2432ca8501cd79358ac63.bindPopup(popup_40c68391adda4ebfaab4e86ca92ff142)
+            ;
+
+            
+        
+    
+        marker_e261ecce8ae2432ca8501cd79358ac63.bindTooltip(
+            `<div>`
+            + `Complejo Hospitalario Universitario de Ourense - CHUO` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_cde5e57820654f7d8ec8f6f13d8e666a = L.marker(
+            [43.3753533, -5.827230399999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_74d04f841129417d89c50ddb1beb019e = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cde5e57820654f7d8ec8f6f13d8e666a.setIcon(icon_74d04f841129417d89c50ddb1beb019e);
+            
+    
+            var popup_c5b94f6f37c648069bbb2c223a2f4887 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_b158db8257f749cd856ddb50463d2221 = $(`<div id="html_b158db8257f749cd856ddb50463d2221" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario Central de Asturias</b><br>Av. Roma, s/n, 33011 Oviedo, Asturias<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJLUP-6OSMNg0RPOCw2pHK520>Google Maps</a></div>`)[0];
+                popup_c5b94f6f37c648069bbb2c223a2f4887.setContent(html_b158db8257f749cd856ddb50463d2221);
+            
+
+            marker_cde5e57820654f7d8ec8f6f13d8e666a.bindPopup(popup_c5b94f6f37c648069bbb2c223a2f4887)
+            ;
+
+            
+        
+    
+        marker_cde5e57820654f7d8ec8f6f13d8e666a.bindTooltip(
+            `<div>`
+            + `Hospital Universitario Central de Asturias` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_64cf1f2030c54316b68758c522c0e41e = L.marker(
+            [43.5251469, -5.6070825],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_4ebaf5f6d05e45c2a95a902ae6c45f57 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_64cf1f2030c54316b68758c522c0e41e.setIcon(icon_4ebaf5f6d05e45c2a95a902ae6c45f57);
+            
+    
+            var popup_a212d7ed2e9842e087e49a34ccf67dd6 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_1bd8de572d3b40fc9e94be182a2d4ff6 = $(`<div id="html_1bd8de572d3b40fc9e94be182a2d4ff6" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario de Cabueñes</b><br>Los Prados, 395, 33394 Gijón, Asturias<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJI8aYMhx7Ng0RavXPk_Aqzaw>Google Maps</a></div>`)[0];
+                popup_a212d7ed2e9842e087e49a34ccf67dd6.setContent(html_1bd8de572d3b40fc9e94be182a2d4ff6);
+            
+
+            marker_64cf1f2030c54316b68758c522c0e41e.bindPopup(popup_a212d7ed2e9842e087e49a34ccf67dd6)
+            ;
+
+            
+        
+    
+        marker_64cf1f2030c54316b68758c522c0e41e.bindTooltip(
+            `<div>`
+            + `Hospital Universitario de Cabueñes` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_c3c178d0fd8b4d759f50429502c1c7ce = L.marker(
+            [43.5518906, -5.936107700000001],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_71a50b8b1f894aab9175e7e9169a9403 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c3c178d0fd8b4d759f50429502c1c7ce.setIcon(icon_71a50b8b1f894aab9175e7e9169a9403);
+            
+    
+            var popup_435b64dd2b9e45798c7c9a8f3cd61768 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_f847e596ddd64717b77729bf85e442ad = $(`<div id="html_f847e596ddd64717b77729bf85e442ad" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario San Agustín</b><br>Cam. de Heros, 6, 33401 Avilés, Asturias<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJp0qnHnqbNg0RrpPRizuJHQ8>Google Maps</a></div>`)[0];
+                popup_435b64dd2b9e45798c7c9a8f3cd61768.setContent(html_f847e596ddd64717b77729bf85e442ad);
+            
+
+            marker_c3c178d0fd8b4d759f50429502c1c7ce.bindPopup(popup_435b64dd2b9e45798c7c9a8f3cd61768)
+            ;
+
+            
+        
+    
+        marker_c3c178d0fd8b4d759f50429502c1c7ce.bindTooltip(
+            `<div>`
+            + `Hospital Universitario San Agustín` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_c39be845beee40f3a1b9c78084b0d95d = L.marker(
+            [43.4560767, -3.8292097],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_d8021b3acc184ca789ca19faa280e5af = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c39be845beee40f3a1b9c78084b0d95d.setIcon(icon_d8021b3acc184ca789ca19faa280e5af);
+            
+    
+            var popup_d2881b2f30a840159f6e3184a262ff92 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_2c9a7c45bff14234b37bb6ec3a0b5ab6 = $(`<div id="html_2c9a7c45bff14234b37bb6ec3a0b5ab6" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario Marqués de Valdecilla</b><br>Av. de Valdecilla, 25, 39008 Santander, Cantabria<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJsaW6HoJJSQ0RV8PttOL6CQg>Google Maps</a></div>`)[0];
+                popup_d2881b2f30a840159f6e3184a262ff92.setContent(html_2c9a7c45bff14234b37bb6ec3a0b5ab6);
+            
+
+            marker_c39be845beee40f3a1b9c78084b0d95d.bindPopup(popup_d2881b2f30a840159f6e3184a262ff92)
+            ;
+
+            
+        
+    
+        marker_c39be845beee40f3a1b9c78084b0d95d.bindTooltip(
+            `<div>`
+            + `Hospital Universitario Marqués de Valdecilla` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_bf678dc257574cedb6c3ecc7e279aac2 = L.marker(
+            [43.2615549, -2.9530459],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_a6368e0d081c4249a47141f7e49bb820 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bf678dc257574cedb6c3ecc7e279aac2.setIcon(icon_a6368e0d081c4249a47141f7e49bb820);
+            
+    
+            var popup_242183c6b14a4831b72c6f98109fbe06 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_442813c520924604879daa58e273a0f2 = $(`<div id="html_442813c520924604879daa58e273a0f2" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario Basurto</b><br>Montevideo Etorb., 18, 48013 Bilbo, Bizkaia<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJq0UhNjdQTg0RjLKVq9sOFfM>Google Maps</a></div>`)[0];
+                popup_242183c6b14a4831b72c6f98109fbe06.setContent(html_442813c520924604879daa58e273a0f2);
+            
+
+            marker_bf678dc257574cedb6c3ecc7e279aac2.bindPopup(popup_242183c6b14a4831b72c6f98109fbe06)
+            ;
+
+            
+        
+    
+        marker_bf678dc257574cedb6c3ecc7e279aac2.bindTooltip(
+            `<div>`
+            + `Hospital Universitario Basurto` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_a1e2a03af2b847e587341d5399956950 = L.marker(
+            [43.2833044, -2.9857004],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_40c1f3d01bb14c9493d3ec290b1def51 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a1e2a03af2b847e587341d5399956950.setIcon(icon_40c1f3d01bb14c9493d3ec290b1def51);
+            
+    
+            var popup_cbd203eee2bc49af95627fe978b77224 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_73d8d4ca42db4ca68448ff8fe1b4bf69 = $(`<div id="html_73d8d4ca42db4ca68448ff8fe1b4bf69" style="width: 100.0%; height: 100.0%;"><b>Gurutzetako Unibertsitate Ospitalea Hospital Universitario Cruces</b><br>48903 Baracaldo, Vizcaya<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJCR1KHYVQTg0Rr5YApdiWic0>Google Maps</a></div>`)[0];
+                popup_cbd203eee2bc49af95627fe978b77224.setContent(html_73d8d4ca42db4ca68448ff8fe1b4bf69);
+            
+
+            marker_a1e2a03af2b847e587341d5399956950.bindPopup(popup_cbd203eee2bc49af95627fe978b77224)
+            ;
+
+            
+        
+    
+        marker_a1e2a03af2b847e587341d5399956950.bindTooltip(
+            `<div>`
+            + `Gurutzetako Unibertsitate Ospitalea Hospital Universitario Cruces` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_3f75bbc63c7e44d782373ee3f7bdf36b = L.marker(
+            [43.2821116, -2.9841373],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_0afa35d9fc2f4eb2b4ccda5a739088df = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3f75bbc63c7e44d782373ee3f7bdf36b.setIcon(icon_0afa35d9fc2f4eb2b4ccda5a739088df);
+            
+    
+            var popup_1762993b27974d32b8cba2502a12ea47 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_b2a60eb699974fb6b8d85f3e62310b18 = $(`<div id="html_b2a60eb699974fb6b8d85f3e62310b18" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario de Cruces Urgencias de Pediatría</b><br>Hospital De Cruces, Cruces Plaza, s/n, 48903 Barakaldo, Biscay<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJsXsVloVQTg0Rg89ip_S-6ps>Google Maps</a></div>`)[0];
+                popup_1762993b27974d32b8cba2502a12ea47.setContent(html_b2a60eb699974fb6b8d85f3e62310b18);
+            
+
+            marker_3f75bbc63c7e44d782373ee3f7bdf36b.bindPopup(popup_1762993b27974d32b8cba2502a12ea47)
+            ;
+
+            
+        
+    
+        marker_3f75bbc63c7e44d782373ee3f7bdf36b.bindTooltip(
+            `<div>`
+            + `Hospital Universitario de Cruces Urgencias de Pediatría` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_34e921787d864949a1ace367b4c781b5 = L.marker(
+            [43.2234469, -2.8179267],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_bcee39a78fa54195a30d592d21484fdd = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_34e921787d864949a1ace367b4c781b5.setIcon(icon_bcee39a78fa54195a30d592d21484fdd);
+            
+    
+            var popup_845683570da14b8e840a0f49413b37d7 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_b03cef23ac5e44d68d42f00cc3196ac1 = $(`<div id="html_b03cef23ac5e44d68d42f00cc3196ac1" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario de Galdakao</b><br>Labeaga Auzoa, 48960 Galdakao, Bizkaia<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJp5PIv4JJTg0RBDRFZKsHbIU>Google Maps</a></div>`)[0];
+                popup_845683570da14b8e840a0f49413b37d7.setContent(html_b03cef23ac5e44d68d42f00cc3196ac1);
+            
+
+            marker_34e921787d864949a1ace367b4c781b5.bindPopup(popup_845683570da14b8e840a0f49413b37d7)
+            ;
+
+            
+        
+    
+        marker_34e921787d864949a1ace367b4c781b5.bindTooltip(
+            `<div>`
+            + `Hospital Universitario de Galdakao` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_139cb2a4f87543a8bbdc73b7a75ed83e = L.marker(
+            [43.2921409, -1.9705101],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_cc46b9cf9a2946be91246ba004680701 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_139cb2a4f87543a8bbdc73b7a75ed83e.setIcon(icon_cc46b9cf9a2946be91246ba004680701);
+            
+    
+            var popup_2c65ed9b73674df58cbf63f6c6c5aff2 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_333825489e0b45c2b59184b640560c65 = $(`<div id="html_333825489e0b45c2b59184b640560c65" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario Donostia</b><br>Begiristain Doktorea Pasealekua, s/n, 20014 Donostia, Gipuzkoa<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJmVAPe-mvUQ0RWEqky9JmfYY>Google Maps</a></div>`)[0];
+                popup_2c65ed9b73674df58cbf63f6c6c5aff2.setContent(html_333825489e0b45c2b59184b640560c65);
+            
+
+            marker_139cb2a4f87543a8bbdc73b7a75ed83e.bindPopup(popup_2c65ed9b73674df58cbf63f6c6c5aff2)
+            ;
+
+            
+        
+    
+        marker_139cb2a4f87543a8bbdc73b7a75ed83e.bindTooltip(
+            `<div>`
+            + `Hospital Universitario Donostia` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_e1285b1a73d5460fa99c029a6de90775 = L.marker(
+            [42.8548459, -2.6902258],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_3a6bbcfc2940497eb3de76fdef3b77a5 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e1285b1a73d5460fa99c029a6de90775.setIcon(icon_3a6bbcfc2940497eb3de76fdef3b77a5);
+            
+    
+            var popup_8280442be1ae45938eca3bb865d1c6bc = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_1fede8aa72a4462fb9f98e8a0a038f4c = $(`<div id="html_1fede8aa72a4462fb9f98e8a0a038f4c" style="width: 100.0%; height: 100.0%;"><b>Hospital Txagorritxu HUA</b><br>Jose Atxotegi Kalea, s/n, 01009 Gasteiz, Araba<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJP6LiSiPCTw0R5H452Ok6euU>Google Maps</a></div>`)[0];
+                popup_8280442be1ae45938eca3bb865d1c6bc.setContent(html_1fede8aa72a4462fb9f98e8a0a038f4c);
+            
+
+            marker_e1285b1a73d5460fa99c029a6de90775.bindPopup(popup_8280442be1ae45938eca3bb865d1c6bc)
+            ;
+
+            
+        
+    
+        marker_e1285b1a73d5460fa99c029a6de90775.bindTooltip(
+            `<div>`
+            + `Hospital Txagorritxu HUA` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_303f03f2c9774219a300e77bad430ddf = L.marker(
+            [42.6188257, -5.5724149],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_262e5478bf2a4ae29efaf35fcfe18b44 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_303f03f2c9774219a300e77bad430ddf.setIcon(icon_262e5478bf2a4ae29efaf35fcfe18b44);
+            
+    
+            var popup_fecbc574da724c66bdded342facd921a = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_4918c8da7a744936a87fec3b693bf104 = $(`<div id="html_4918c8da7a744936a87fec3b693bf104" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario de León</b><br>C/ ALTOS DE NAVA, S/N, 24071 León<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJV7kh4o6aNw0RypafH46O36Q>Google Maps</a></div>`)[0];
+                popup_fecbc574da724c66bdded342facd921a.setContent(html_4918c8da7a744936a87fec3b693bf104);
+            
+
+            marker_303f03f2c9774219a300e77bad430ddf.bindPopup(popup_fecbc574da724c66bdded342facd921a)
+            ;
+
+            
+        
+    
+        marker_303f03f2c9774219a300e77bad430ddf.bindTooltip(
+            `<div>`
+            + `Hospital Universitario de León` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_8b566258bc1f4e779ae4b1b81e12325b = L.marker(
+            [42.361942, -3.6848983],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_1f74b4398cad4acea7fbae38a31754d0 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8b566258bc1f4e779ae4b1b81e12325b.setIcon(icon_1f74b4398cad4acea7fbae38a31754d0);
+            
+    
+            var popup_9eff9781e55145a39205377a79197292 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_806ebade60c74552834a3cea8f54b54d = $(`<div id="html_806ebade60c74552834a3cea8f54b54d" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario de Burgos</b><br>Av. Islas Baleares, 3, 09006 Burgos<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJUxA-Vez8RQ0RK91rUX-e0Ag>Google Maps</a></div>`)[0];
+                popup_9eff9781e55145a39205377a79197292.setContent(html_806ebade60c74552834a3cea8f54b54d);
+            
+
+            marker_8b566258bc1f4e779ae4b1b81e12325b.bindPopup(popup_9eff9781e55145a39205377a79197292)
+            ;
+
+            
+        
+    
+        marker_8b566258bc1f4e779ae4b1b81e12325b.bindTooltip(
+            `<div>`
+            + `Hospital Universitario de Burgos` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_3b64f1a58c724a24bb6c785e6dcba7e2 = L.marker(
+            [42.8052565, -1.6682796],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_b2a1fba98d364f9e8bc6ede12df25ecb = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3b64f1a58c724a24bb6c785e6dcba7e2.setIcon(icon_b2a1fba98d364f9e8bc6ede12df25ecb);
+            
+    
+            var popup_3b20fa9edfe844a4b2a9fd8bff3f113d = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_6112dc7e274545c9b36b05cbc47b1c1a = $(`<div id="html_6112dc7e274545c9b36b05cbc47b1c1a" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario de Navarra</b><br>C. de Irunlarrea, 3, 31008 Pamplona, Navarra<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJyZUMEXuSUA0R1T1xJj0EwVg>Google Maps</a></div>`)[0];
+                popup_3b20fa9edfe844a4b2a9fd8bff3f113d.setContent(html_6112dc7e274545c9b36b05cbc47b1c1a);
+            
+
+            marker_3b64f1a58c724a24bb6c785e6dcba7e2.bindPopup(popup_3b20fa9edfe844a4b2a9fd8bff3f113d)
+            ;
+
+            
+        
+    
+        marker_3b64f1a58c724a24bb6c785e6dcba7e2.bindTooltip(
+            `<div>`
+            + `Hospital Universitario de Navarra` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_c50d3c9fbd504650b3c1b7bc9701cf36 = L.marker(
+            [41.6348027, -0.8999977],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_4f37ac2d36af4b9b8a8ef79256444169 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c50d3c9fbd504650b3c1b7bc9701cf36.setIcon(icon_4f37ac2d36af4b9b8a8ef79256444169);
+            
+    
+            var popup_d8ceaeec988f40929645ea6979b766cb = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_c9a0b3eb74ee4992a0aa26ff10d10147 = $(`<div id="html_c9a0b3eb74ee4992a0aa26ff10d10147" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario Miguel Servet</b><br>P.º Isabel la Católica, 1-3, 50009 Zaragoza<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJCz-DaykVWQ0R6H9I-Rzpe4w>Google Maps</a></div>`)[0];
+                popup_d8ceaeec988f40929645ea6979b766cb.setContent(html_c9a0b3eb74ee4992a0aa26ff10d10147);
+            
+
+            marker_c50d3c9fbd504650b3c1b7bc9701cf36.bindPopup(popup_d8ceaeec988f40929645ea6979b766cb)
+            ;
+
+            
+        
+    
+        marker_c50d3c9fbd504650b3c1b7bc9701cf36.bindTooltip(
+            `<div>`
+            + `Hospital Universitario Miguel Servet` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_44eaade8b78648c3a613364e7bd5494c = L.marker(
+            [41.1242189, 1.2385315],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_bce6976637b649e390d3de0605eafaff = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_44eaade8b78648c3a613364e7bd5494c.setIcon(icon_bce6976637b649e390d3de0605eafaff);
+            
+    
+            var popup_a84449e758304d50b31bb7e4f77ed068 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_a6d1c769c6d4453a949b3deb3c0bfe0a = $(`<div id="html_a6d1c769c6d4453a949b3deb3c0bfe0a" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario Joan XXIII</b><br>C/ Dr. Mallafrè Guasch, 4, 43005 Tarragona<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJ4wQVhzr9oxIRGHfMrHnprC8>Google Maps</a></div>`)[0];
+                popup_a84449e758304d50b31bb7e4f77ed068.setContent(html_a6d1c769c6d4453a949b3deb3c0bfe0a);
+            
+
+            marker_44eaade8b78648c3a613364e7bd5494c.bindPopup(popup_a84449e758304d50b31bb7e4f77ed068)
+            ;
+
+            
+        
+    
+        marker_44eaade8b78648c3a613364e7bd5494c.bindTooltip(
+            `<div>`
+            + `Hospital Universitario Joan XXIII` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_69c12ad4018e4c45a43033a492672365 = L.marker(
+            [41.3891266, 2.1517606],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_f700a16827734aae8f858fc574a10e18 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_69c12ad4018e4c45a43033a492672365.setIcon(icon_f700a16827734aae8f858fc574a10e18);
+            
+    
+            var popup_01a5ee5b26824376a127ebe67a4fb471 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_3b3205fa4d4e44eb9c6ac1ec7bbd88f4 = $(`<div id="html_3b3205fa4d4e44eb9c6ac1ec7bbd88f4" style="width: 100.0%; height: 100.0%;"><b>Hospital Clínic de Barcelona</b><br>C. de Villarroel, 170, 08036 Barcelona<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJK90xPIWipBIRJ6zNc-2srHs>Google Maps</a></div>`)[0];
+                popup_01a5ee5b26824376a127ebe67a4fb471.setContent(html_3b3205fa4d4e44eb9c6ac1ec7bbd88f4);
+            
+
+            marker_69c12ad4018e4c45a43033a492672365.bindPopup(popup_01a5ee5b26824376a127ebe67a4fb471)
+            ;
+
+            
+        
+    
+        marker_69c12ad4018e4c45a43033a492672365.bindTooltip(
+            `<div>`
+            + `Hospital Clínic de Barcelona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_e9138e73ef8f423285a062b204950f22 = L.marker(
+            [41.5570752, 2.1098612],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_bf5b1216d67444728a9da77bbfb7c735 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e9138e73ef8f423285a062b204950f22.setIcon(icon_bf5b1216d67444728a9da77bbfb7c735);
+            
+    
+            var popup_1a8b071660bc4bbabaea859d96e7556c = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_8a895e9197b64eaebc5044e237a91805 = $(`<div id="html_8a895e9197b64eaebc5044e237a91805" style="width: 100.0%; height: 100.0%;"><b>Consorcio Corporación Sanitaria Parc Taulí</b><br>Parc Taulí, 1, 08208 Sabadell, Barcelona<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJEzeUqR6VpBIRLWry0bF-_Ak>Google Maps</a></div>`)[0];
+                popup_1a8b071660bc4bbabaea859d96e7556c.setContent(html_8a895e9197b64eaebc5044e237a91805);
+            
+
+            marker_e9138e73ef8f423285a062b204950f22.bindPopup(popup_1a8b071660bc4bbabaea859d96e7556c)
+            ;
+
+            
+        
+    
+        marker_e9138e73ef8f423285a062b204950f22.bindTooltip(
+            `<div>`
+            + `Consorcio Corporación Sanitaria Parc Taulí` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_55746ff518e04b3da01e6eef04c07b01 = L.marker(
+            [41.5638576, 2.0171051],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_e191453e20024d5c9b105e0f5ed5dea7 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_55746ff518e04b3da01e6eef04c07b01.setIcon(icon_e191453e20024d5c9b105e0f5ed5dea7);
+            
+    
+            var popup_572ccf3089e14b6e92a60e25c690736d = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_80b80f03907d4beb93e1e600416535e7 = $(`<div id="html_80b80f03907d4beb93e1e600416535e7" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitari MútuaTerrassa</b><br>Plaça del Doctor Robert, 5, 08221 Terrassa, Barcelona<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJzeBXBOiSpBIRTJlHUiW8bJY>Google Maps</a></div>`)[0];
+                popup_572ccf3089e14b6e92a60e25c690736d.setContent(html_80b80f03907d4beb93e1e600416535e7);
+            
+
+            marker_55746ff518e04b3da01e6eef04c07b01.bindPopup(popup_572ccf3089e14b6e92a60e25c690736d)
+            ;
+
+            
+        
+    
+        marker_55746ff518e04b3da01e6eef04c07b01.bindTooltip(
+            `<div>`
+            + `Hospital Universitari MútuaTerrassa` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_2b0d1f4aedf64f509c4273b663191133 = L.marker(
+            [41.481187, 2.2375473],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_8c71a8232e3347eaacf46be8166f60c5 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2b0d1f4aedf64f509c4273b663191133.setIcon(icon_8c71a8232e3347eaacf46be8166f60c5);
+            
+    
+            var popup_6c26923f122a46b78dbc9e4b23b6e917 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_476c0a898b28469b87d5ab126eef6eee = $(`<div id="html_476c0a898b28469b87d5ab126eef6eee" style="width: 100.0%; height: 100.0%;"><b>Hospital Hermanos Trias i Pujol</b><br>Carretera de Canyet, s/n, 08916 Badalona, Barcelona<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJT8_Gk-y7pBIRtW1TARXF_yo>Google Maps</a></div>`)[0];
+                popup_6c26923f122a46b78dbc9e4b23b6e917.setContent(html_476c0a898b28469b87d5ab126eef6eee);
+            
+
+            marker_2b0d1f4aedf64f509c4273b663191133.bindPopup(popup_6c26923f122a46b78dbc9e4b23b6e917)
+            ;
+
+            
+        
+    
+        marker_2b0d1f4aedf64f509c4273b663191133.bindTooltip(
+            `<div>`
+            + `Hospital Hermanos Trias i Pujol` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_29fdd1f481724b40be2c4a5e709f55c2 = L.marker(
+            [41.3842658, 2.1019417],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_5060815883344a7390fce5f64e22f3f5 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_29fdd1f481724b40be2c4a5e709f55c2.setIcon(icon_5060815883344a7390fce5f64e22f3f5);
+            
+    
+            var popup_d2a230e9ac6340aea2910850f27db014 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_c035fa7d39dd402bbd17d5d8f5e03772 = $(`<div id="html_c035fa7d39dd402bbd17d5d8f5e03772" style="width: 100.0%; height: 100.0%;"><b>Hospital Sant Joan de Déu Barcelona</b><br>Passeig de Sant Joan de Déu, 2, 08950 Esplugues de Llobregat, Barcelona<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJHRlbNKqZpBIRcNRe_AzqSdU>Google Maps</a></div>`)[0];
+                popup_d2a230e9ac6340aea2910850f27db014.setContent(html_c035fa7d39dd402bbd17d5d8f5e03772);
+            
+
+            marker_29fdd1f481724b40be2c4a5e709f55c2.bindPopup(popup_d2a230e9ac6340aea2910850f27db014)
+            ;
+
+            
+        
+    
+        marker_29fdd1f481724b40be2c4a5e709f55c2.bindTooltip(
+            `<div>`
+            + `Hospital Sant Joan de Déu Barcelona` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_cbd75dbcd2a34230960e178b9e6b65a9 = L.marker(
+            [41.3845118, 2.1939045],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_120a556e183445d39fd56a47f033284b = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cbd75dbcd2a34230960e178b9e6b65a9.setIcon(icon_120a556e183445d39fd56a47f033284b);
+            
+    
+            var popup_58b75bd1bcb544a5acb4f32d57a6b6f7 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_fdadb8f9f0124636a39cafcb119bade5 = $(`<div id="html_fdadb8f9f0124636a39cafcb119bade5" style="width: 100.0%; height: 100.0%;"><b>Hospital del Mar</b><br>Passeig Marítim de la Barceloneta, 25, 29, 08003 Barcelona<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJfZ8dhQijpBIRZQpUuuTgc5k>Google Maps</a></div>`)[0];
+                popup_58b75bd1bcb544a5acb4f32d57a6b6f7.setContent(html_fdadb8f9f0124636a39cafcb119bade5);
+            
+
+            marker_cbd75dbcd2a34230960e178b9e6b65a9.bindPopup(popup_58b75bd1bcb544a5acb4f32d57a6b6f7)
+            ;
+
+            
+        
+    
+        marker_cbd75dbcd2a34230960e178b9e6b65a9.bindTooltip(
+            `<div>`
+            + `Hospital del Mar` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_9cb2bd10e3b248db80aa43f1e8fb3f97 = L.marker(
+            [41.4276874, 2.1423868],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_15dd00bb4b944ec78e8db1e027ba35be = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9cb2bd10e3b248db80aa43f1e8fb3f97.setIcon(icon_15dd00bb4b944ec78e8db1e027ba35be);
+            
+    
+            var popup_0797a41c23844ab28a3dc1b99e05d606 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_22957a79a5a049379294405421b504c9 = $(`<div id="html_22957a79a5a049379294405421b504c9" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario Valle de Hebrón</b><br>Passeig de la Vall d'Hebron, 119, 08035 Barcelona<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJ3-xLF_2XpBIRdZjtdppRBQY>Google Maps</a></div>`)[0];
+                popup_0797a41c23844ab28a3dc1b99e05d606.setContent(html_22957a79a5a049379294405421b504c9);
+            
+
+            marker_9cb2bd10e3b248db80aa43f1e8fb3f97.bindPopup(popup_0797a41c23844ab28a3dc1b99e05d606)
+            ;
+
+            
+        
+    
+        marker_9cb2bd10e3b248db80aa43f1e8fb3f97.bindTooltip(
+            `<div>`
+            + `Hospital Universitario Valle de Hebrón` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_82b3dc96ae294a4bb074cfe6b448fd06 = L.marker(
+            [41.559221, 2.0138879],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_082f451ccff046bdb4d0eb51764bb142 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_82b3dc96ae294a4bb074cfe6b448fd06.setIcon(icon_082f451ccff046bdb4d0eb51764bb142);
+            
+    
+            var popup_73ac278f03014fff99b62489f3de0693 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_3cc27a58306d42a1a5a00e5dab1b13cb = $(`<div id="html_3cc27a58306d42a1a5a00e5dab1b13cb" style="width: 100.0%; height: 100.0%;"><b>Salut i Més. CST: Consorci Sanitari de Terrassa</b><br>Plaça Nova, 5, Local 7, 08221 Terrassa, Barcelona<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJ0xx4rb-SpBIRqIJ_XyZubqs>Google Maps</a></div>`)[0];
+                popup_73ac278f03014fff99b62489f3de0693.setContent(html_3cc27a58306d42a1a5a00e5dab1b13cb);
+            
+
+            marker_82b3dc96ae294a4bb074cfe6b448fd06.bindPopup(popup_73ac278f03014fff99b62489f3de0693)
+            ;
+
+            
+        
+    
+        marker_82b3dc96ae294a4bb074cfe6b448fd06.bindTooltip(
+            `<div>`
+            + `Salut i Més. CST: Consorci Sanitari de Terrassa` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_e46f815a6b61496bb7dfb30eb2d315eb = L.marker(
+            [41.7348286, 1.8253502],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_719f7da9fcac4495a6d3a3e456d34d83 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e46f815a6b61496bb7dfb30eb2d315eb.setIcon(icon_719f7da9fcac4495a6d3a3e456d34d83);
+            
+    
+            var popup_62547618e6aa4e9a974d1a8976ca98a4 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_ec8c606ec012454698862405de250b46 = $(`<div id="html_ec8c606ec012454698862405de250b46" style="width: 100.0%; height: 100.0%;"><b>Centre Hospitalari de Manresa - Fundació Althaia</b><br>Carrer del Flor de Lis, 33, 08242 Manresa, Barcelona<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJa6Kkcw9YpBIRGeUMruvOo_w>Google Maps</a></div>`)[0];
+                popup_62547618e6aa4e9a974d1a8976ca98a4.setContent(html_ec8c606ec012454698862405de250b46);
+            
+
+            marker_e46f815a6b61496bb7dfb30eb2d315eb.bindPopup(popup_62547618e6aa4e9a974d1a8976ca98a4)
+            ;
+
+            
+        
+    
+        marker_e46f815a6b61496bb7dfb30eb2d315eb.bindTooltip(
+            `<div>`
+            + `Centre Hospitalari de Manresa - Fundació Althaia` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_2801596c01934e05932188958d77a96c = L.marker(
+            [41.3447661, 2.1042319],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_52d6889f48bc48d5974328ad3e1e7490 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2801596c01934e05932188958d77a96c.setIcon(icon_52d6889f48bc48d5974328ad3e1e7490);
+            
+    
+            var popup_a435f19d2b5d4e19ae2ada02f49082a6 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_923e593be6564eeca3741ffed47c5983 = $(`<div id="html_923e593be6564eeca3741ffed47c5983" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitari de Bellvitge</b><br>Carrer de la Feixa Llarga, s/n, 08907 L'Hospitalet de Llobregat, Barcelona<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJ2_ae9SqZpBIRoXaoN-PYD2M>Google Maps</a></div>`)[0];
+                popup_a435f19d2b5d4e19ae2ada02f49082a6.setContent(html_923e593be6564eeca3741ffed47c5983);
+            
+
+            marker_2801596c01934e05932188958d77a96c.bindPopup(popup_a435f19d2b5d4e19ae2ada02f49082a6)
+            ;
+
+            
+        
+    
+        marker_2801596c01934e05932188958d77a96c.bindTooltip(
+            `<div>`
+            + `Hospital Universitari de Bellvitge` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_960291bbd8eb4be18f9204359af4f3aa = L.marker(
+            [41.31245819999999, 2.0146536],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_42f490ef74334daab9b03ab83cbecdf9 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_960291bbd8eb4be18f9204359af4f3aa.setIcon(icon_42f490ef74334daab9b03ab83cbecdf9);
+            
+    
+            var popup_a346b149c9f0426a84adaa5ae55bb1e4 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_795f8b631d5747e4bb27dc61d781cf4e = $(`<div id="html_795f8b631d5747e4bb27dc61d781cf4e" style="width: 100.0%; height: 100.0%;"><b>Hospital de Viladecans</b><br>Av. de Gavà, 38, 08840 Viladecans, Barcelona<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJl8iHM-ScpBIRiQ5o9csfqBo>Google Maps</a></div>`)[0];
+                popup_a346b149c9f0426a84adaa5ae55bb1e4.setContent(html_795f8b631d5747e4bb27dc61d781cf4e);
+            
+
+            marker_960291bbd8eb4be18f9204359af4f3aa.bindPopup(popup_a346b149c9f0426a84adaa5ae55bb1e4)
+            ;
+
+            
+        
+    
+        marker_960291bbd8eb4be18f9204359af4f3aa.bindTooltip(
+            `<div>`
+            + `Hospital de Viladecans` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_21b42721bf1b422396fb5a28f4ea6f33 = L.marker(
+            [41.3733164, 2.0725157],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_52b22040c0024d2988e007dc6c4f9d42 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_21b42721bf1b422396fb5a28f4ea6f33.setIcon(icon_52b22040c0024d2988e007dc6c4f9d42);
+            
+    
+            var popup_f234fb10d18f42e2ab9e6d2686c2db6a = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_de97e467953d4010bf16e1a89565ec51 = $(`<div id="html_de97e467953d4010bf16e1a89565ec51" style="width: 100.0%; height: 100.0%;"><b>Hospital de Sant Joan Despí</b><br>C. d'Oriol Martorell, 12, 08970 Sant Joan Despí, Barcelona<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJ34eCOHuZpBIRH1md-g1Q_uc>Google Maps</a></div>`)[0];
+                popup_f234fb10d18f42e2ab9e6d2686c2db6a.setContent(html_de97e467953d4010bf16e1a89565ec51);
+            
+
+            marker_21b42721bf1b422396fb5a28f4ea6f33.bindPopup(popup_f234fb10d18f42e2ab9e6d2686c2db6a)
+            ;
+
+            
+        
+    
+        marker_21b42721bf1b422396fb5a28f4ea6f33.bindTooltip(
+            `<div>`
+            + `Hospital de Sant Joan Despí` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_5874b48278f84b8ab19e91547b474280 = L.marker(
+            [41.41539110000001, 2.1747963],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_6213e4868171412db4b5fede9eec8f69 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5874b48278f84b8ab19e91547b474280.setIcon(icon_6213e4868171412db4b5fede9eec8f69);
+            
+    
+            var popup_ba5758ae3db74f54b9f2731fd72b4881 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_8f2464dfc86048dd85fb884dbe0dca54 = $(`<div id="html_8f2464dfc86048dd85fb884dbe0dca54" style="width: 100.0%; height: 100.0%;"><b>Hospital Nou de la Santa Creu i Sant Pau</b><br>Carrer de Sant Quintí, 89, 08041 Barcelona<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJ06OiSf2jpBIRuPg-dn47H7g>Google Maps</a></div>`)[0];
+                popup_ba5758ae3db74f54b9f2731fd72b4881.setContent(html_8f2464dfc86048dd85fb884dbe0dca54);
+            
+
+            marker_5874b48278f84b8ab19e91547b474280.bindPopup(popup_ba5758ae3db74f54b9f2731fd72b4881)
+            ;
+
+            
+        
+    
+        marker_5874b48278f84b8ab19e91547b474280.bindTooltip(
+            `<div>`
+            + `Hospital Nou de la Santa Creu i Sant Pau` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_3b50c043dce74f41b11b15b6be446fd6 = L.marker(
+            [41.9975709, 2.8199659],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_f4f761bb82f24f769da700a29f47fec6 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3b50c043dce74f41b11b15b6be446fd6.setIcon(icon_f4f761bb82f24f769da700a29f47fec6);
+            
+    
+            var popup_9c7881d8d056457981beddd2c5c69baa = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_689b866cd2f941f1948ea9bab329fba1 = $(`<div id="html_689b866cd2f941f1948ea9bab329fba1" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario de Gerona Doctor Josep Trueta</b><br>Avinguda de França, S/N, 17007 Girona<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJ2VcZOv3muhIR8g0-E5_yDBs>Google Maps</a></div>`)[0];
+                popup_9c7881d8d056457981beddd2c5c69baa.setContent(html_689b866cd2f941f1948ea9bab329fba1);
+            
+
+            marker_3b50c043dce74f41b11b15b6be446fd6.bindPopup(popup_9c7881d8d056457981beddd2c5c69baa)
+            ;
+
+            
+        
+    
+        marker_3b50c043dce74f41b11b15b6be446fd6.bindTooltip(
+            `<div>`
+            + `Hospital Universitario de Gerona Doctor Josep Trueta` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_0c09ac593f844a13ab761f4173ec0fe0 = L.marker(
+            [40.9636372, -5.6755741],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_9773f8fdd6a9444b85b4877dc7397dba = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0c09ac593f844a13ab761f4173ec0fe0.setIcon(icon_9773f8fdd6a9444b85b4877dc7397dba);
+            
+    
+            var popup_7dd770c8aa334da8b6304fb8d56435d4 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_cc7f4516ba79482fa10e35693d35d27d = $(`<div id="html_cc7f4516ba79482fa10e35693d35d27d" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario de Salamanca</b><br>P.º de San Vicente, 182, 37007 Salamanca<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJuTZHsTkmPw0RxWX7oqHX8Qg>Google Maps</a></div>`)[0];
+                popup_7dd770c8aa334da8b6304fb8d56435d4.setContent(html_cc7f4516ba79482fa10e35693d35d27d);
+            
+
+            marker_0c09ac593f844a13ab761f4173ec0fe0.bindPopup(popup_7dd770c8aa334da8b6304fb8d56435d4)
+            ;
+
+            
+        
+    
+        marker_0c09ac593f844a13ab761f4173ec0fe0.bindTooltip(
+            `<div>`
+            + `Hospital Universitario de Salamanca` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_2fae4fbc7a1d469db5dfd8cbf119cb5a = L.marker(
+            [41.6294871, -4.7134255],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_c725a8f989804f0bab2a1d145e9b35a8 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2fae4fbc7a1d469db5dfd8cbf119cb5a.setIcon(icon_c725a8f989804f0bab2a1d145e9b35a8);
+            
+    
+            var popup_b612c858e1c14660ac0a8d52cd8236b0 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_58d60c7c13764d1a95c906bc9fea4400 = $(`<div id="html_58d60c7c13764d1a95c906bc9fea4400" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario Río Hortega</b><br>C. Dulzaina, 2, 47012 Valladolid<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJT4GX-tsSRw0RWsg4x8qBF3o>Google Maps</a></div>`)[0];
+                popup_b612c858e1c14660ac0a8d52cd8236b0.setContent(html_58d60c7c13764d1a95c906bc9fea4400);
+            
+
+            marker_2fae4fbc7a1d469db5dfd8cbf119cb5a.bindPopup(popup_b612c858e1c14660ac0a8d52cd8236b0)
+            ;
+
+            
+        
+    
+        marker_2fae4fbc7a1d469db5dfd8cbf119cb5a.bindTooltip(
+            `<div>`
+            + `Hospital Universitario Río Hortega` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_3034dd776d7148e1b0666f0794dc79d0 = L.marker(
+            [40.414431, -3.6761187],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_282febe3061743658c45147dc4d1ad88 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3034dd776d7148e1b0666f0794dc79d0.setIcon(icon_282febe3061743658c45147dc4d1ad88);
+            
+    
+            var popup_85d9c787a8764df595a7e28d327eb9f1 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_73d3b3d4e55646aa95db9321d2479739 = $(`<div id="html_73d3b3d4e55646aa95db9321d2479739" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario Infantil Niño Jesús</b><br>Av. de Menéndez Pelayo, 65, 28009 Madrid<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJzfH1S6coQg0Rhm8TbRoUUmY>Google Maps</a></div>`)[0];
+                popup_85d9c787a8764df595a7e28d327eb9f1.setContent(html_73d3b3d4e55646aa95db9321d2479739);
+            
+
+            marker_3034dd776d7148e1b0666f0794dc79d0.bindPopup(popup_85d9c787a8764df595a7e28d327eb9f1)
+            ;
+
+            
+        
+    
+        marker_3034dd776d7148e1b0666f0794dc79d0.bindTooltip(
+            `<div>`
+            + `Hospital Universitario Infantil Niño Jesús` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_ecbdd032523642b89697fd7214f3faf0 = L.marker(
+            [40.4339832, -3.6757264],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_55827b4b877547e096a7d13b4a3b6c40 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ecbdd032523642b89697fd7214f3faf0.setIcon(icon_55827b4b877547e096a7d13b4a3b6c40);
+            
+    
+            var popup_6e6dfa0bfafb41a2986e7290c80cd946 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_4b4ca3e9a9fe4d9dbafbd447b1c56a25 = $(`<div id="html_4b4ca3e9a9fe4d9dbafbd447b1c56a25" style="width: 100.0%; height: 100.0%;"><b>Hospital de La Princesa</b><br>Calle de Diego de León, 62, 28006 Madrid<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJnQ0UkLgoQg0RqeN3F_DpePA>Google Maps</a></div>`)[0];
+                popup_6e6dfa0bfafb41a2986e7290c80cd946.setContent(html_4b4ca3e9a9fe4d9dbafbd447b1c56a25);
+            
+
+            marker_ecbdd032523642b89697fd7214f3faf0.bindPopup(popup_6e6dfa0bfafb41a2986e7290c80cd946)
+            ;
+
+            
+        
+    
+        marker_ecbdd032523642b89697fd7214f3faf0.bindTooltip(
+            `<div>`
+            + `Hospital de La Princesa` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_a902a0d5ce714d1c99baf89338b9a2e4 = L.marker(
+            [40.3760381, -3.6990068],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_c149b1d8ccdf4f7ca8f351d15a5e6ad8 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a902a0d5ce714d1c99baf89338b9a2e4.setIcon(icon_c149b1d8ccdf4f7ca8f351d15a5e6ad8);
+            
+    
+            var popup_b4f8f02d533842e19707f8a7b3e7f390 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_10553268f98f44198bd4709de59a1b9b = $(`<div id="html_10553268f98f44198bd4709de59a1b9b" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario 12 de Octubre</b><br>Av. de Córdoba, s/n, 28041 Madrid<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJQ1cGtVYmQg0RKTAbV8YE_AM>Google Maps</a></div>`)[0];
+                popup_b4f8f02d533842e19707f8a7b3e7f390.setContent(html_10553268f98f44198bd4709de59a1b9b);
+            
+
+            marker_a902a0d5ce714d1c99baf89338b9a2e4.bindPopup(popup_b4f8f02d533842e19707f8a7b3e7f390)
+            ;
+
+            
+        
+    
+        marker_a902a0d5ce714d1c99baf89338b9a2e4.bindTooltip(
+            `<div>`
+            + `Hospital Universitario 12 de Octubre` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_dceacee7d11247bd957ae6e6c90b9c87 = L.marker(
+            [40.4811633, -3.6873978],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_342bfb4a10de428496daeb5da09d9ed4 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dceacee7d11247bd957ae6e6c90b9c87.setIcon(icon_342bfb4a10de428496daeb5da09d9ed4);
+            
+    
+            var popup_3c339f902d9040c2bf443c15296a4c8d = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_0242e46674a9474c913825ee89baf24b = $(`<div id="html_0242e46674a9474c913825ee89baf24b" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario La Paz</b><br>P.º de la Castellana, 261, 28046 Madrid<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJ09D_amkpQg0RnVBkPIdpLgk>Google Maps</a></div>`)[0];
+                popup_3c339f902d9040c2bf443c15296a4c8d.setContent(html_0242e46674a9474c913825ee89baf24b);
+            
+
+            marker_dceacee7d11247bd957ae6e6c90b9c87.bindPopup(popup_3c339f902d9040c2bf443c15296a4c8d)
+            ;
+
+            
+        
+    
+        marker_dceacee7d11247bd957ae6e6c90b9c87.bindTooltip(
+            `<div>`
+            + `Hospital Universitario La Paz` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_2a1c52f07c7f4de1849c6a24d93ba464 = L.marker(
+            [40.44143, -3.7206008],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_807de97a710440258100247260bef936 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2a1c52f07c7f4de1849c6a24d93ba464.setIcon(icon_807de97a710440258100247260bef936);
+            
+    
+            var popup_e2c9bac6818e41c18ce267915a86c00a = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_89ea882410c3411ea1582155b81db09f = $(`<div id="html_89ea882410c3411ea1582155b81db09f" style="width: 100.0%; height: 100.0%;"><b>Hospital Clínico San Carlos</b><br>Calle del Prof Martín Lagos, 28040 Madrid<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJo6pRjkYoQg0R8N0-4nNSP_o>Google Maps</a></div>`)[0];
+                popup_e2c9bac6818e41c18ce267915a86c00a.setContent(html_89ea882410c3411ea1582155b81db09f);
+            
+
+            marker_2a1c52f07c7f4de1849c6a24d93ba464.bindPopup(popup_e2c9bac6818e41c18ce267915a86c00a)
+            ;
+
+            
+        
+    
+        marker_2a1c52f07c7f4de1849c6a24d93ba464.bindTooltip(
+            `<div>`
+            + `Hospital Clínico San Carlos` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_72ea1f744ac64900a0392db681da8cc7 = L.marker(
+            [40.3488135, -3.837392899999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_cbec7065e4c745319030476236a58f41 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_72ea1f744ac64900a0392db681da8cc7.setIcon(icon_cbec7065e4c745319030476236a58f41);
+            
+    
+            var popup_4d97044ea70b4c2cb659f67c54cba36e = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_b1d6e0d03e684d26a370de76684dab84 = $(`<div id="html_b1d6e0d03e684d26a370de76684dab84" style="width: 100.0%; height: 100.0%;"><b>Fundación Hospital Alcorcón</b><br>C. Budapest, 1, 28922 Alcorcón, Madrid<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJ80zTZMiOQQ0RUrzbuwDDhSQ>Google Maps</a></div>`)[0];
+                popup_4d97044ea70b4c2cb659f67c54cba36e.setContent(html_b1d6e0d03e684d26a370de76684dab84);
+            
+
+            marker_72ea1f744ac64900a0392db681da8cc7.bindPopup(popup_4d97044ea70b4c2cb659f67c54cba36e)
+            ;
+
+            
+        
+    
+        marker_72ea1f744ac64900a0392db681da8cc7.bindTooltip(
+            `<div>`
+            + `Fundación Hospital Alcorcón` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_a8d389dc68d643afa53c4e0ec3aad97e = L.marker(
+            [40.4502082, -3.8742158],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_d6809f54fa55465eb7e2c91a4321da32 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a8d389dc68d643afa53c4e0ec3aad97e.setIcon(icon_d6809f54fa55465eb7e2c91a4321da32);
+            
+    
+            var popup_ecc414b8445c4e0ba9eef6d92f10c197 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_df06d72f1f184440a9221eeb82633e55 = $(`<div id="html_df06d72f1f184440a9221eeb82633e55" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario Puerta De Hierro</b><br>C. Joaquín Rodrigo, 1, 28222 Majadahonda, Madrid<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJATk1s-KEQQ0R9Ybqd23k6nM>Google Maps</a></div>`)[0];
+                popup_ecc414b8445c4e0ba9eef6d92f10c197.setContent(html_df06d72f1f184440a9221eeb82633e55);
+            
+
+            marker_a8d389dc68d643afa53c4e0ec3aad97e.bindPopup(popup_ecc414b8445c4e0ba9eef6d92f10c197)
+            ;
+
+            
+        
+    
+        marker_a8d389dc68d643afa53c4e0ec3aad97e.bindTooltip(
+            `<div>`
+            + `Hospital Universitario Puerta De Hierro` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_ebac26dd3c9a4049aacdc92b48601dd3 = L.marker(
+            [40.2872064, -3.8158649],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_8444e8ecadf84a6b963b181e582b76fa = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ebac26dd3c9a4049aacdc92b48601dd3.setIcon(icon_8444e8ecadf84a6b963b181e582b76fa);
+            
+    
+            var popup_ad0ae34316e44f4dbe42dfa97779d8a4 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_991afafbab5c44e485d4e176efc4ee8e = $(`<div id="html_991afafbab5c44e485d4e176efc4ee8e" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario de Fuenlabrada</b><br>Cam. del Molino, 2, 28942 Fuenlabrada, Madrid<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJu5wn1oGLQQ0RJUe9PLAWa8Q>Google Maps</a></div>`)[0];
+                popup_ad0ae34316e44f4dbe42dfa97779d8a4.setContent(html_991afafbab5c44e485d4e176efc4ee8e);
+            
+
+            marker_ebac26dd3c9a4049aacdc92b48601dd3.bindPopup(popup_ad0ae34316e44f4dbe42dfa97779d8a4)
+            ;
+
+            
+        
+    
+        marker_ebac26dd3c9a4049aacdc92b48601dd3.bindTooltip(
+            `<div>`
+            + `Hospital Universitario de Fuenlabrada` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_000631ef119a49df91b44af55f7646bb = L.marker(
+            [40.4874172, -3.6945485],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_a37aebbfa7124eb18fdeba9bf6f15c66 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_000631ef119a49df91b44af55f7646bb.setIcon(icon_a37aebbfa7124eb18fdeba9bf6f15c66);
+            
+    
+            var popup_d57d5e05d41543ba978aef437c878950 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_3dd015f6f0ce46d8a83e619a7acbab4b = $(`<div id="html_3dd015f6f0ce46d8a83e619a7acbab4b" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario Ramón y Cajal</b><br>M-607, 9, 100, 28034 Madrid<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJda0YBiaMQQ0RlEQUdttGlvw>Google Maps</a></div>`)[0];
+                popup_d57d5e05d41543ba978aef437c878950.setContent(html_3dd015f6f0ce46d8a83e619a7acbab4b);
+            
+
+            marker_000631ef119a49df91b44af55f7646bb.bindPopup(popup_d57d5e05d41543ba978aef437c878950)
+            ;
+
+            
+        
+    
+        marker_000631ef119a49df91b44af55f7646bb.bindTooltip(
+            `<div>`
+            + `Hospital Universitario Ramón y Cajal` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_ad9c41a38e994a0e801122427fef9704 = L.marker(
+            [40.2181688, -3.7821326],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_6e93e222ae65488b8603c855d96d58e1 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ad9c41a38e994a0e801122427fef9704.setIcon(icon_6e93e222ae65488b8603c855d96d58e1);
+            
+    
+            var popup_f28da1c0e69c466998628c05ab906bc8 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_e1f2fbe9a23f4aaaa6b527513df26daf = $(`<div id="html_e1f2fbe9a23f4aaaa6b527513df26daf" style="width: 100.0%; height: 100.0%;"><b>Hospital Infanta Cristina</b><br>Av. 9 de Junio, 2, 28981 Parla, Madrid<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJvTJ_px31QQ0R0bpAvtIRuuQ>Google Maps</a></div>`)[0];
+                popup_f28da1c0e69c466998628c05ab906bc8.setContent(html_e1f2fbe9a23f4aaaa6b527513df26daf);
+            
+
+            marker_ad9c41a38e994a0e801122427fef9704.bindPopup(popup_f28da1c0e69c466998628c05ab906bc8)
+            ;
+
+            
+        
+    
+        marker_ad9c41a38e994a0e801122427fef9704.bindTooltip(
+            `<div>`
+            + `Hospital Infanta Cristina` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_27777f34a4674236a323768e8f3b8e9b = L.marker(
+            [40.4195247, -3.6713438],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_530431ae61ec4463882c0986a1bc4e59 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_27777f34a4674236a323768e8f3b8e9b.setIcon(icon_530431ae61ec4463882c0986a1bc4e59);
+            
+    
+            var popup_93953125050045eb85ba1a504d8a2e53 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_5649aa12a2904584af5697d9b9ec7aab = $(`<div id="html_5649aa12a2904584af5697d9b9ec7aab" style="width: 100.0%; height: 100.0%;"><b>Hospital General Universitario Gregorio Marañón</b><br>C. Dr. Esquerdo, 46, 28007 Madrid<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJt4hi0q4oQg0R_eFBQxH-0_M>Google Maps</a></div>`)[0];
+                popup_93953125050045eb85ba1a504d8a2e53.setContent(html_5649aa12a2904584af5697d9b9ec7aab);
+            
+
+            marker_27777f34a4674236a323768e8f3b8e9b.bindPopup(popup_93953125050045eb85ba1a504d8a2e53)
+            ;
+
+            
+        
+    
+        marker_27777f34a4674236a323768e8f3b8e9b.bindTooltip(
+            `<div>`
+            + `Hospital General Universitario Gregorio Marañón` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_6e7cd07e76dd4387be6c3c530fab1e6b = L.marker(
+            [38.9706411, -3.9308615],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_0c8dad9bacd74646ac54fdacf836ddca = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6e7cd07e76dd4387be6c3c530fab1e6b.setIcon(icon_0c8dad9bacd74646ac54fdacf836ddca);
+            
+    
+            var popup_c934dd0b749e430fb6d3adc3de4c79ef = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_2e27ebb11d22493b97b385a29f512082 = $(`<div id="html_2e27ebb11d22493b97b385a29f512082" style="width: 100.0%; height: 100.0%;"><b>Hospital General Universitario de Ciudad Real</b><br>C. Obispo Rafael Torija, s/n, 13005 Ciudad Real, Cdad. Real<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJm0fFqhnDaw0Rb9bxRNJeKo8>Google Maps</a></div>`)[0];
+                popup_c934dd0b749e430fb6d3adc3de4c79ef.setContent(html_2e27ebb11d22493b97b385a29f512082);
+            
+
+            marker_6e7cd07e76dd4387be6c3c530fab1e6b.bindPopup(popup_c934dd0b749e430fb6d3adc3de4c79ef)
+            ;
+
+            
+        
+    
+        marker_6e7cd07e76dd4387be6c3c530fab1e6b.bindTooltip(
+            `<div>`
+            + `Hospital General Universitario de Ciudad Real` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_4d3f76673d3d48bfb9f911f1c002bd07 = L.marker(
+            [38.9706411, -3.9308615],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_aa0e0096ad984a199e17d8e7b50eb474 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4d3f76673d3d48bfb9f911f1c002bd07.setIcon(icon_aa0e0096ad984a199e17d8e7b50eb474);
+            
+    
+            var popup_4f22611adc0f4207b4f5947aebf6ed7e = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_3ae58bb94e234ab8b07273f729f5fc86 = $(`<div id="html_3ae58bb94e234ab8b07273f729f5fc86" style="width: 100.0%; height: 100.0%;"><b>Hospital General Universitario de Ciudad Real</b><br>C. Obispo Rafael Torija, s/n, 13005 Ciudad Real, Cdad. Real<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJm0fFqhnDaw0Rb9bxRNJeKo8>Google Maps</a></div>`)[0];
+                popup_4f22611adc0f4207b4f5947aebf6ed7e.setContent(html_3ae58bb94e234ab8b07273f729f5fc86);
+            
+
+            marker_4d3f76673d3d48bfb9f911f1c002bd07.bindPopup(popup_4f22611adc0f4207b4f5947aebf6ed7e)
+            ;
+
+            
+        
+    
+        marker_4d3f76673d3d48bfb9f911f1c002bd07.bindTooltip(
+            `<div>`
+            + `Hospital General Universitario de Ciudad Real` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_62f201fd8af949138859fba8dc918ea6 = L.marker(
+            [39.4858463, -0.4526537],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_50fd01d4344e4ba491fb08839f4848cc = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_62f201fd8af949138859fba8dc918ea6.setIcon(icon_50fd01d4344e4ba491fb08839f4848cc);
+            
+    
+            var popup_234f402123fb4666bdef4e30631d207e = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_490a70d321d743acb985a23fd1c8d957 = $(`<div id="html_490a70d321d743acb985a23fd1c8d957" style="width: 100.0%; height: 100.0%;"><b>Hospital de Manises</b><br>Av. de la Generalitat Valenciana, 50, 46940 Manises, Valencia<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJk4m0B6ZaYA0RhzElPPSyiOI>Google Maps</a></div>`)[0];
+                popup_234f402123fb4666bdef4e30631d207e.setContent(html_490a70d321d743acb985a23fd1c8d957);
+            
+
+            marker_62f201fd8af949138859fba8dc918ea6.bindPopup(popup_234f402123fb4666bdef4e30631d207e)
+            ;
+
+            
+        
+    
+        marker_62f201fd8af949138859fba8dc918ea6.bindTooltip(
+            `<div>`
+            + `Hospital de Manises` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_34f789275b5345b7a14f528c95430cd1 = L.marker(
+            [39.4434752, -0.3760153],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_4ea1d61f7e62436aaed0a781b8232a79 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_34f789275b5345b7a14f528c95430cd1.setIcon(icon_4ea1d61f7e62436aaed0a781b8232a79);
+            
+    
+            var popup_9e1994d6265649eebfe9840fefa3f466 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_9e355f470d404cac867a74fecd4a8d04 = $(`<div id="html_9e355f470d404cac867a74fecd4a8d04" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario y Politécnico La Fe</b><br>Avinguda de Fernando Abril Martorell, 106, 46026 València, Valencia<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJAVvKgypPYA0RQgKmJr-A4XY>Google Maps</a></div>`)[0];
+                popup_9e1994d6265649eebfe9840fefa3f466.setContent(html_9e355f470d404cac867a74fecd4a8d04);
+            
+
+            marker_34f789275b5345b7a14f528c95430cd1.bindPopup(popup_9e1994d6265649eebfe9840fefa3f466)
+            ;
+
+            
+        
+    
+        marker_34f789275b5345b7a14f528c95430cd1.bindTooltip(
+            `<div>`
+            + `Hospital Universitario y Politécnico La Fe` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_7410f56d9b8d483f8f2c51b392480708 = L.marker(
+            [39.4788821, -0.3620572],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_f37ce99b1d08410a8ab236ab610890a0 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7410f56d9b8d483f8f2c51b392480708.setIcon(icon_f37ce99b1d08410a8ab236ab610890a0);
+            
+    
+            var popup_0803ecbd38c846149e0c41b09d4f3de9 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_6a33b5c893ec45d2827721ba73e83049 = $(`<div id="html_6a33b5c893ec45d2827721ba73e83049" style="width: 100.0%; height: 100.0%;"><b>Hospital Clínico Universitario de Valencia</b><br>Av. de Blasco Ibáñez, 17, 46010 València, Valencia<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJczNAcKRIYA0Rel4VMvMQvyI>Google Maps</a></div>`)[0];
+                popup_0803ecbd38c846149e0c41b09d4f3de9.setContent(html_6a33b5c893ec45d2827721ba73e83049);
+            
+
+            marker_7410f56d9b8d483f8f2c51b392480708.bindPopup(popup_0803ecbd38c846149e0c41b09d4f3de9)
+            ;
+
+            
+        
+    
+        marker_7410f56d9b8d483f8f2c51b392480708.bindTooltip(
+            `<div>`
+            + `Hospital Clínico Universitario de Valencia` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_25b5384f21b44dab9be16dfb1ff56c58 = L.marker(
+            [39.4531312, -0.394365],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_ec9613dbffb049aabe7b3fffefb4a9f0 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_25b5384f21b44dab9be16dfb1ff56c58.setIcon(icon_ec9613dbffb049aabe7b3fffefb4a9f0);
+            
+    
+            var popup_ce4abc0c574e4813b93766f72668bf74 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_a3d1e68b8a2a4addb6e436e41d85ea90 = $(`<div id="html_a3d1e68b8a2a4addb6e436e41d85ea90" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario Doctor Peset</b><br>Av. de Gaspar Aguilar, 90, 46017 València, Valencia<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJ5Y7dlCJPYA0RTHOchUHlzK8>Google Maps</a></div>`)[0];
+                popup_ce4abc0c574e4813b93766f72668bf74.setContent(html_a3d1e68b8a2a4addb6e436e41d85ea90);
+            
+
+            marker_25b5384f21b44dab9be16dfb1ff56c58.bindPopup(popup_ce4abc0c574e4813b93766f72668bf74)
+            ;
+
+            
+        
+    
+        marker_25b5384f21b44dab9be16dfb1ff56c58.bindTooltip(
+            `<div>`
+            + `Hospital Universitario Doctor Peset` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_7123f415ca38478596b11da808b9248f = L.marker(
+            [39.4684889, -0.4082964],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_21ee43cbe3c04531993f00b533a8bbeb = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7123f415ca38478596b11da808b9248f.setIcon(icon_21ee43cbe3c04531993f00b533a8bbeb);
+            
+    
+            var popup_476c8f418c7e4a4288417f466d9d42f4 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_cb6109fab6a84bb88dabc63aff0174ea = $(`<div id="html_cb6109fab6a84bb88dabc63aff0174ea" style="width: 100.0%; height: 100.0%;"><b>Consorci Hospital General Universitari de València</b><br>Av. de les Tres Creus, 2, 46014 València, Valencia<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJYbSx4XRPYA0R9YeD3qeOnbM>Google Maps</a></div>`)[0];
+                popup_476c8f418c7e4a4288417f466d9d42f4.setContent(html_cb6109fab6a84bb88dabc63aff0174ea);
+            
+
+            marker_7123f415ca38478596b11da808b9248f.bindPopup(popup_476c8f418c7e4a4288417f466d9d42f4)
+            ;
+
+            
+        
+    
+        marker_7123f415ca38478596b11da808b9248f.bindTooltip(
+            `<div>`
+            + `Consorci Hospital General Universitari de València` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_b1d6c78cc3064cc7ab33d333d6692c64 = L.marker(
+            [38.3634075, -0.4860627],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_f8b8b193ad2a43c598b3b9efdbd7bc48 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b1d6c78cc3064cc7ab33d333d6692c64.setIcon(icon_f8b8b193ad2a43c598b3b9efdbd7bc48);
+            
+    
+            var popup_a8a677bfecfe409ebd2927051b1b1cd4 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_f789d47d6ba94f0697c967e15a18717a = $(`<div id="html_f789d47d6ba94f0697c967e15a18717a" style="width: 100.0%; height: 100.0%;"><b>Hospital General Universitario de Alicante Doctor Balmis</b><br>Pintor Baeza, 11, 03010 Alicante<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJX1m9GwI3Yg0RYzmLMLBlPv8>Google Maps</a></div>`)[0];
+                popup_a8a677bfecfe409ebd2927051b1b1cd4.setContent(html_f789d47d6ba94f0697c967e15a18717a);
+            
+
+            marker_b1d6c78cc3064cc7ab33d333d6692c64.bindPopup(popup_a8a677bfecfe409ebd2927051b1b1cd4)
+            ;
+
+            
+        
+    
+        marker_b1d6c78cc3064cc7ab33d333d6692c64.bindTooltip(
+            `<div>`
+            + `Hospital General Universitario de Alicante Doctor Balmis` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_00d2211f1f3641e29bac1de2df5da76b = L.marker(
+            [38.26004470000001, -0.6849143999999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_8ebadd4f869641fd97b722a2333ff46b = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_00d2211f1f3641e29bac1de2df5da76b.setIcon(icon_8ebadd4f869641fd97b722a2333ff46b);
+            
+    
+            var popup_53b277f653d3428699e838eeb72bd3cd = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_c2ae07e426e2454fb336285b300a7dda = $(`<div id="html_c2ae07e426e2454fb336285b300a7dda" style="width: 100.0%; height: 100.0%;"><b>Hospital General Universitario de Elche</b><br>Carrer Almazara, 11, 03203 Elche, Alicante<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJZQlfhJq2Yw0RnpAAG7UNJ_A>Google Maps</a></div>`)[0];
+                popup_53b277f653d3428699e838eeb72bd3cd.setContent(html_c2ae07e426e2454fb336285b300a7dda);
+            
+
+            marker_00d2211f1f3641e29bac1de2df5da76b.bindPopup(popup_53b277f653d3428699e838eeb72bd3cd)
+            ;
+
+            
+        
+    
+        marker_00d2211f1f3641e29bac1de2df5da76b.bindTooltip(
+            `<div>`
+            + `Hospital General Universitario de Elche` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_3ee43a21d8894ceeaaec16266c2766ce = L.marker(
+            [39.6075129, 2.6459085],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_1262e53596bc4bcf92686acddb4a35de = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3ee43a21d8894ceeaaec16266c2766ce.setIcon(icon_1262e53596bc4bcf92686acddb4a35de);
+            
+    
+            var popup_316221070a0141c1a959edf631f3ca55 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_47ebd4e5385c4c2bb82f74fe6502d364 = $(`<div id="html_47ebd4e5385c4c2bb82f74fe6502d364" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitari Son Espases</b><br>Carretera de Valldemossa, 79, 07120 Palma, Illes Balears<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJtz9Zb8SSlxIRchoxl4kqARI>Google Maps</a></div>`)[0];
+                popup_316221070a0141c1a959edf631f3ca55.setContent(html_47ebd4e5385c4c2bb82f74fe6502d364);
+            
+
+            marker_3ee43a21d8894ceeaaec16266c2766ce.bindPopup(popup_316221070a0141c1a959edf631f3ca55)
+            ;
+
+            
+        
+    
+        marker_3ee43a21d8894ceeaaec16266c2766ce.bindTooltip(
+            `<div>`
+            + `Hospital Universitari Son Espases` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_37d4af21842b4c2eb950f284d61cfde6 = L.marker(
+            [37.8677597, -4.797799599999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_b04e1ff93687483f89d9510d0fc43c73 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_37d4af21842b4c2eb950f284d61cfde6.setIcon(icon_b04e1ff93687483f89d9510d0fc43c73);
+            
+    
+            var popup_3f57d065dd5f47bdbfeb2e84a26c0330 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_4998973f24b046f0921a9cf5e20856ea = $(`<div id="html_4998973f24b046f0921a9cf5e20856ea" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario Reina Sofía</b><br>Av. Menendez Pidal, s/n, 14004 Córdoba<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJo0Ntq5kgbQ0RHOzQze1L2F4>Google Maps</a></div>`)[0];
+                popup_3f57d065dd5f47bdbfeb2e84a26c0330.setContent(html_4998973f24b046f0921a9cf5e20856ea);
+            
+
+            marker_37d4af21842b4c2eb950f284d61cfde6.bindPopup(popup_3f57d065dd5f47bdbfeb2e84a26c0330)
+            ;
+
+            
+        
+    
+        marker_37d4af21842b4c2eb950f284d61cfde6.bindTooltip(
+            `<div>`
+            + `Hospital Universitario Reina Sofía` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_f2d0e68f12bb4fb88333c6e1b74fc0b3 = L.marker(
+            [37.4067926, -5.9866406],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_f3efe676692240e089e28ae92e3f06df = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f2d0e68f12bb4fb88333c6e1b74fc0b3.setIcon(icon_f3efe676692240e089e28ae92e3f06df);
+            
+    
+            var popup_40f4b55c2f3c4cb188765036d2093881 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_c6b942556296459a9f6c060dc7a5faf2 = $(`<div id="html_c6b942556296459a9f6c060dc7a5faf2" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario Virgen Macarena</b><br>Av. Dr. Fedriani, 3, 41009 Sevilla<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJGS_Q8tJoEg0Rcones2Hj9MQ>Google Maps</a></div>`)[0];
+                popup_40f4b55c2f3c4cb188765036d2093881.setContent(html_c6b942556296459a9f6c060dc7a5faf2);
+            
+
+            marker_f2d0e68f12bb4fb88333c6e1b74fc0b3.bindPopup(popup_40f4b55c2f3c4cb188765036d2093881)
+            ;
+
+            
+        
+    
+        marker_f2d0e68f12bb4fb88333c6e1b74fc0b3.bindTooltip(
+            `<div>`
+            + `Hospital Universitario Virgen Macarena` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_f9e69e6c9b7749bea2dacc35c6adcce9 = L.marker(
+            [36.6989807, -6.14881],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_dab20bdf62154fb4a3224b29fd92631f = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f9e69e6c9b7749bea2dacc35c6adcce9.setIcon(icon_dab20bdf62154fb4a3224b29fd92631f);
+            
+    
+            var popup_bdfa3bf2235c47cd90f07b6214dd4bdd = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_f0fe2735f67d45b09bdd473d519fe587 = $(`<div id="html_f0fe2735f67d45b09bdd473d519fe587" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario De Jerez</b><br>Ctra. Trebujena, s/n, 11407 Jerez de la Frontera, Cádiz<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJESXsBKbGDQ0RKwPBeraQvz8>Google Maps</a></div>`)[0];
+                popup_bdfa3bf2235c47cd90f07b6214dd4bdd.setContent(html_f0fe2735f67d45b09bdd473d519fe587);
+            
+
+            marker_f9e69e6c9b7749bea2dacc35c6adcce9.bindPopup(popup_bdfa3bf2235c47cd90f07b6214dd4bdd)
+            ;
+
+            
+        
+    
+        marker_f9e69e6c9b7749bea2dacc35c6adcce9.bindTooltip(
+            `<div>`
+            + `Hospital Universitario De Jerez` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_201cb96baf1e4b6c808e69a34a8d05e0 = L.marker(
+            [36.7183379, -4.4780498],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_e6dd4ff714e64845bf6ea515d7509e38 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_201cb96baf1e4b6c808e69a34a8d05e0.setIcon(icon_e6dd4ff714e64845bf6ea515d7509e38);
+            
+    
+            var popup_34169674b0e44885b3d3966dc6987928 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_1965740cd3264f31a453a73573a4bb83 = $(`<div id="html_1965740cd3264f31a453a73573a4bb83" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario Virgen de la Victoria</b><br>Campus de Teatinos, S/N, 29010 Málaga<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJ0zqNjkr3cg0RxS2HK3PwuIo>Google Maps</a></div>`)[0];
+                popup_34169674b0e44885b3d3966dc6987928.setContent(html_1965740cd3264f31a453a73573a4bb83);
+            
+
+            marker_201cb96baf1e4b6c808e69a34a8d05e0.bindPopup(popup_34169674b0e44885b3d3966dc6987928)
+            ;
+
+            
+        
+    
+        marker_201cb96baf1e4b6c808e69a34a8d05e0.bindTooltip(
+            `<div>`
+            + `Hospital Universitario Virgen de la Victoria` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_65ef61a057b9483c803559c5edebed88 = L.marker(
+            [28.4579702, -16.291718],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_dfe55187e1854be899da3bb13bcfab50);
+        
+    
+
+                var icon_76429bf8771848d1bf3cbe25d52d4c23 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'darkpurple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_65ef61a057b9483c803559c5edebed88.setIcon(icon_76429bf8771848d1bf3cbe25d52d4c23);
+            
+    
+            var popup_44801b2b423346929d373c6ed3a124e2 = L.popup({maxWidth: '2000'
+            
+            });
+
+            
+                var html_ae7e41f7122c4261a84f3c710b47dfb1 = $(`<div id="html_ae7e41f7122c4261a84f3c710b47dfb1" style="width: 100.0%; height: 100.0%;"><b>Hospital Universitario De Tenerife</b><br>Carr. Gral. la Cuesta, 38320 San Cristóbal de La Laguna, Santa Cruz de Tenerife<br><a href=https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJpVwWGfjMQQwRXEB_uAne760>Google Maps</a></div>`)[0];
+                popup_44801b2b423346929d373c6ed3a124e2.setContent(html_ae7e41f7122c4261a84f3c710b47dfb1);
+            
+
+            marker_65ef61a057b9483c803559c5edebed88.bindPopup(popup_44801b2b423346929d373c6ed3a124e2)
+            ;
+
+            
+        
+    
+        marker_65ef61a057b9483c803559c5edebed88.bindTooltip(
+            `<div>`
+            + `Hospital Universitario De Tenerife` + `</div>`,
+            {"sticky": true}
+        );
+        
+</script>
